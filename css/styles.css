@@ -40,6 +40,8 @@
   --bs-warning: #ffc107;
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
+  --bs-beer: #38352B;
+  --bs-beer-yellow: #F9F394;
   --bs-dark: #212529;
   --bs-primary-rgb: 13, 110, 253;
   --bs-secondary-rgb: 108, 117, 125;
@@ -48,6 +50,8 @@
   --bs-warning-rgb: 255, 193, 7;
   --bs-danger-rgb: 220, 53, 69;
   --bs-light-rgb: 248, 249, 250;
+  --bs-beer-rgb: 56, 53,43;
+  --bs-beer-yellow-rgb: 249, 243,148;
   --bs-dark-rgb: 33, 37, 41;
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
@@ -4432,6 +4436,44 @@ textarea.form-control-lg {
   overflow-y: visible;
 }
 
+/* BeerExperience Navbar */
+.navbar-beer .navbar-brand {
+  color: rgba(56, 53, 43, 1);
+}
+.navbar-beer .navbar-brand:hover, .navbar-beer .navbar-brand:focus {
+  color: rgba(56, 53, 43, 1);
+}
+.navbar-beer .navbar-nav .nav-link {
+  color: white;
+}
+.navbar-beer .navbar-nav .nav-link:hover, .navbar-beer .navbar-nav .nav-link:focus {
+  color: rgba(249, 243, 148, 1)
+}
+.navbar-beer .navbar-nav .nav-link.disabled {
+  color: rgba(0, 0, 0, 0.3);
+}
+.navbar-beer .navbar-nav .show > .nav-link,
+.navbar-beer .navbar-nav .nav-link.active {
+  color: rgba(0, 0, 0, 0.9);
+}
+.navbar-beer .navbar-toggler {
+  color: rgba(0, 0, 0, 0.55);
+  border-color: rgba(0, 0, 0, 0.1);
+}
+.navbar-beer .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.navbar-beer .navbar-text {
+  color: rgba(0, 0, 0, 0.55);
+}
+.navbar-beer .navbar-text a,
+.navbar-beer .navbar-text a:hover,
+.navbar-beer .navbar-text a:focus {
+  color: rgba(0, 0, 0, 0.9);
+}
+
+/* end of navbar */
+
 .navbar-light .navbar-brand {
   color: rgba(0, 0, 0, 0.9);
 }
@@ -7826,6 +7868,16 @@ textarea.form-control-lg {
 .bg-light {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.bg-beer {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-beer-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.bg-beer-yellow {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-beer-yellow-rgb), var(--bs-bg-opacity)) !important;
 }
 
 .bg-dark {

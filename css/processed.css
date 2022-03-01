@@ -1,4 +1,8 @@
-.map {
+#map {
   max-width: 904px;
   max-height: 873.45px;
+}
+
+#main-map{
+  margin-left: 15px;
 }

@@ -1,6 +1,4 @@
-#luchtfabriek {
-  margin-top: 270px;
-  margin-left: 500px;
-  background-color: black;
-  position: absolute;
+.map {
+  max-width: 904px;
+  max-height: 873.45px;
 }

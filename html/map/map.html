@@ -21,23 +21,14 @@
                 <!-- Top navigation-->
                 <nav class="navbar navbar-expand-lg navbar-beer bg-beer border-bottom">
                     <div class="container-fluid">
-                        <a class="navbar-brand navbar-logo" href="#"><img src="../../assets/logo.png" alt="logo" class="navbar-logo"/></a>
+                        <a class="navbar-brand navbar-logo" href="../../index.html"><img src="../../assets/logo.png" alt="logo" class="navbar-logo"/></a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
                                 <li class="nav-item active"><a class="nav-link selected-link" href="map.html">Map</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#!">Biersoorten</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#!">Info</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#!">Sponsors</a></li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-                                    <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                                        <a class="dropdown-item" href="#!">Action</a>
-                                        <a class="dropdown-item" href="#!">Another action</a>
-                                        <div class="dropdown-divider"></div>
-                                        <a class="dropdown-item" href="#!">Something else here</a>
-                                    </div>
-                                </li>
+                                <li class="nav-item"><a class="nav-link" href="../biersoorten/biersoorten.html">Biersoorten</a></li>
+                                <li class="nav-item"><a class="nav-link" href="../info/info.html">Info</a></li>
+                                <li class="nav-item"><a class="nav-link" href="../sponsors/sponsors.html">Sponsors</a></li>
                             </ul>
                         </div>
                     </div>
@@ -48,15 +39,25 @@
                 </div>
             </div>
         </div>
-        <div>
+        <div id="main-map">
             <map name="workmap"> 
-              <area shape="circle" coords="503,290,50" alt="Luchtfabriek" href="index.html">
-              <img  id="map" usemap="#workmap" src="../../assets/Map.png" style="max-width: 904px; max-height: 873.45px;">
+              <area shape="circle" coords="430,240,30" alt="Luchtfabriek" href="Submappen/foodpairing.html">
+              <area shape="circle" coords="621,215,30" alt="onderdek" href="Submappen/onderdek.html">
+              <area shape="circle" coords="697,163,30" alt="Zwarte zaal" href="Submappen/ZwarteZaal.html">
+              <area shape="circle" coords="735,277,30" alt="café" href="Submappen/café.html">
+              <area shape="circle" coords="445,362,30" alt="terras" href="Submappen/terras.html">
+              <area shape="circle" coords="821,467,30" alt="balzaal" href="Submappen/balzaal.html">
+              <area shape="circle" coords="614,734,30" alt="machines" href="Submappen/machines.html">
+              <area shape="circle" coords="482,725,30" alt="compressorenhal" href="Submappen/compressorenhal.html">
+              <area shape="circle" coords="227,729,30" alt="bovendesk" href="Submappen/bovendesk.html">
+              <area shape="circle" coords="310,529,30" alt="masterclasses" href="Submappen/masterclasses.html">
+              <img  id="map" usemap="#workmap" src="../../assets/map.png">
             </map>
-
+        </div>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="../../js/scripts.js"></script>
+
     </body>
 </html>

@@ -1,0 +1,71 @@
+#map {
+    max-width: 904px;
+    max-height: 873.45px;
+  }
+  
+  #main-map{
+    margin-left: 15px;
+  }
+  
+  .rounded-button{
+    border-radius: 10px;
+    background-color: yellow;
+    position: absolute;
+  }
+  
+  #text-place{
+    position: absolute;
+    margin-left: 1000px;
+  }
+  
+  #button-21{
+    margin-left: 302px;
+    margin-top: 200px;
+  }
+  
+  #button-22{
+    margin-left: 364px;
+    margin-top: 200px;
+  }
+  
+  #button-23{
+    margin-left: 420px;
+    margin-top: 200px;
+  }
+  
+  #button-24{
+    margin-left: 483px;
+    margin-top: 321px;
+  }
+  
+  #button-25{
+    margin-left: 483px;
+    margin-top: 380px;
+  }
+
+  #button-26{
+    margin-left: 483px;
+    margin-top: 439px;
+  }
+
+  #button-27{
+    margin-left: 483px;
+    margin-top: 498px;
+  }
+
+  #button-28{
+    margin-left: 483px;
+    margin-top: 557px;
+  }
+  
+  #button-29{
+    margin-left: 483px;
+    margin-top: 616px;
+  }
+  
+  #button-30{
+    margin-left: 483px;
+    margin-top: 675px;
+  }
+  
+  

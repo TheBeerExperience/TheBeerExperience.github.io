@@ -41,7 +41,7 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-beer: #403c3c;
-  --bs-beer-yellow: #F9F394;
+  --bs-beer-yellow: #fbd42c;
   --bs-dark: #212529;
   --bs-primary-rgb: 13, 110, 253;
   --bs-secondary-rgb: 108, 117, 125;
@@ -51,7 +51,7 @@
   --bs-danger-rgb: 220, 53, 69;
   --bs-light-rgb: 248, 249, 250;
   --bs-beer-rgb: 64, 60, 60;
-  --bs-beer-yellow-rgb: 249, 243,148;
+  --bs-beer-yellow-rgb: 251, 203, 35;
   --bs-dark-rgb: 33, 37, 41;
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
@@ -79,7 +79,10 @@
     scroll-behavior: smooth;
   }
 }
-
+html {
+  margin: 0;
+  height: 100%;
+}
 body {
   font-family: "Trebuchet MS", sans-serif !important;
   font-size: 0.9375rem;
@@ -88,6 +91,7 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
+  background-color: #dbdbdb;
 }
 hr {
   margin: 1rem 0;
@@ -3937,6 +3941,8 @@ textarea.form-control-lg {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
+  font-size: 1.1rem;
+  margin-left: 1rem;
   color: #0d6efd;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
@@ -4115,6 +4121,11 @@ textarea.form-control-lg {
 .navbar-nav-scroll {
   max-height: var(--bs-scroll-height, 75vh);
   overflow-y: auto;
+}
+@media (max-width: 430px) {
+  #navbar-beer-experience {
+    display: none;
+  }
 }
 
 @media (min-width: 576px) {
@@ -4445,7 +4456,7 @@ textarea.form-control-lg {
   color: white;
 }
 .navbar-beer .navbar-nav .nav-link:hover, .navbar-beer .navbar-nav .nav-link:focus {
-  color: rgba(249, 243, 148, 1)
+  color: rgba(251, 212, 44, 1)
 }
 .navbar-beer .navbar-nav .nav-link.disabled {
   color: rgba(0, 0, 0, 0.3);
@@ -4455,8 +4466,8 @@ textarea.form-control-lg {
   color: rgba(0, 0, 0, 0.9);
 }
 .navbar-beer .navbar-toggler {
-  color: rgba(249, 243, 148, 1);
-  border-color: rgba(249, 243, 148, 1);
+  color: rgba(251, 212, 44, 1);
+  border-color: rgba(251, 212, 44, 1);
 }
 .navbar-beer .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
@@ -4474,7 +4485,7 @@ textarea.form-control-lg {
 }
 
 .custom-toggler.navbar-toggler {
-  border-color: rgba(249, 243, 148, 1);
+  border-color: rgba(251, 212, 44, 1);
 } 
 /* end of navbar */
 
@@ -7875,8 +7886,8 @@ textarea.form-control-lg {
 }
 
 .bg-beer {
-  --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-beer-rgb), var(--bs-bg-opacity)) !important;
+  --bs-bg-opacity: 0.5;
+  background-color: white !important;
 }
 
 .bg-beer-yellow {

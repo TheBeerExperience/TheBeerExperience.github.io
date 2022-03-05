@@ -4,3 +4,31 @@
     margin-left: 20px;
     margin-bottom: 10px;
 }
+
+.yellow-text {
+    color: #fbd42c !important;
+}
+
+.body-background {
+    background-image: url("../assets/home_background.JPG"); 
+    background-color: #cccccc;
+    background-size: cover;
+}
+.footer-beer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height: fit-content;   /* Height of the footer */
+}
+
+.mask-custom {
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, .15);
+}
+
+.footer-icons {
+    color: white;
+}
+footer.a {
+    color: white;
+}

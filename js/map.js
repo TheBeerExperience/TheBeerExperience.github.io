@@ -139,6 +139,10 @@ const brouwers = [{
     number: 35,
     name: "Antidoot Wilde Fermenten",
     description: "Twee broers, de ene filosoof, de andere arts, droomden van een eigen bier. Ze experimenteerden met eigen oogst en met de wilde gisten die in het Hageland in de lucht hangen. Regels gingen op de schop, de grenzen met wijn en cider vervaagden. Intussen heeft Antidoot wereldfaam bereikt en zo zetten zij Kortenaken op de wereldkaart van het bier."
+}, {
+    number: 36,
+    name: "Beer4nature",
+    description: ""
 }];
 
 function showInformation(button) {

@@ -1,0 +1,15 @@
+.rounded-button{
+    border-radius: 10px;
+    background-color: yellow;
+    position: absolute;
+  }
+
+  #button-36{
+    margin-left: 500px;
+    margin-top: 185px;
+  }
+  
+  #text-place{
+    position: absolute;
+    margin-left: 1000px;
+  }

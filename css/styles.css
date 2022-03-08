@@ -4629,8 +4629,8 @@ textarea.form-control-lg {
   padding: 0.5rem 1rem;
   text-transform: uppercase;
   margin-bottom: 0;
-  background-color: rgba(0, 0, 0, 0.03);
-  border-bottom: 3px solid rgba(64, 60, 60, 0.125);
+  /* background-color: rgba(0, 0, 0, 0.03);
+  border-bottom: 3px solid rgba(64, 60, 60, 0.125); */
 }
 .card-header:first-child {
   border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;

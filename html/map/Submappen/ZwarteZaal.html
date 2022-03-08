@@ -20,7 +20,7 @@
     <!-- Page content wrapper-->
     <div id="page-content-wrapper">
         <!-- Top navigation-->
-        <nav class="navbar navbar-expand-lg navbar-beer fixed-top mask-custom shadow-0">
+        <nav class="navbar navbar-expand-lg navbar-beer mask-custom shadow-0">
             <div class="container">
                 <a class="navbar-brand navbar-logo" href="../../../index.html">
                     <img src="../../../assets/logo.png" alt="logo" class="navbar-logo"/>
@@ -35,31 +35,37 @@
                         <li class="nav-item"><a class="nav-link"
                                                 href="../../biersoorten/biersoorten.html">Biersoorten</a></li>
                         <li class="nav-item"><a class="nav-link" href="../../info/info.html">Info</a></li>
-                        <li class="nav-item"><a class="nav-link" href="../../sponsors/sponsors.html">Sponsors</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../../sponsors/sponsors.html">Partners</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
         <!-- Page content-->
-        <div class="container-fluid">
-            <h1 class="mt-4">Zwarte zaal</h1>
-        </div>
     </div>
 </div>
-<div id="main-map">
-    <map name="workmap">
-        <area shape="circle" coords="430,240,50" alt="Luchtfabriek" href="foodpairing.html">
-        <button class="rounded-button" id="button-31" onclick="showInformation(31)">31</button>
-        <button class="rounded-button" id="button-32" onclick="showInformation(32)">32</button>
-        <button class="rounded-button" id="button-33" onclick="showInformation(33)">33</button>
-        <button class="rounded-button" id="button-34" onclick="showInformation(34)">34</button>
-        <button class="rounded-button" id="button-35" onclick="showInformation(35)">35</button>
-        <div id="text-place">
-            <h3 id="name"></h3>
-            <p id="description"></p>
+<div class="m-5">
+    <div class="card p-4 border-warning">
+        <div class="card-header">
+            <h1 class="mt-4">Zwarte zaal</h1>
         </div>
-        <img id="map" usemap="#workmap" src="../../../assets/zwarte_zaal.png" alt="Map">
-    </map>
+        <div class="mt-3">
+            <div id="main-map mt-3">
+                <map name="workmap">
+                    <area shape="circle" coords="430,240,50" alt="Luchtfabriek" href="foodpairing.html">
+                    <button class="rounded-button" id="button-31" onclick="showInformation(31)">31</button>
+                    <button class="rounded-button" id="button-32" onclick="showInformation(32)">32</button>
+                    <button class="rounded-button" id="button-33" onclick="showInformation(33)">33</button>
+                    <button class="rounded-button" id="button-34" onclick="showInformation(34)">34</button>
+                    <button class="rounded-button" id="button-35" onclick="showInformation(35)">35</button>
+                    <div id="text-place">
+                        <h3 id="name"></h3>
+                        <p id="description"></p>
+                    </div>
+                    <img id="map" usemap="#workmap" src="../../../assets/zwarte_zaal.png" alt="Map">
+                </map>
+            </div>
+        </div>
+    </div>
 </div>
 <!-- Footer -->
 <footer class="page-footer font-small pt-4 footer-beer mask-custom" style="display: block;">

@@ -92,6 +92,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #dbdbdb;
+  color: #403c3c;
 }
 hr {
   margin: 1rem 0;
@@ -243,7 +244,7 @@ a {
   text-decoration: underline;
 }
 a:hover {
-  color: #0a58ca;
+  color: #403c3c;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -4456,7 +4457,7 @@ textarea.form-control-lg {
   color: white;
 }
 .navbar-beer .navbar-nav .nav-link:hover, .navbar-beer .navbar-nav .nav-link:focus {
-  color: rgba(251, 212, 44, 1)
+  color: #403c3c;
 }
 .navbar-beer .navbar-nav .nav-link.disabled {
   color: rgba(0, 0, 0, 0.3);
@@ -4565,10 +4566,10 @@ textarea.form-control-lg {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.7);
   background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 0.25rem;
+  border: 2px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.5rem;
 }
 .card > hr {
   margin-right: 0;
@@ -4617,9 +4618,10 @@ textarea.form-control-lg {
 
 .card-header {
   padding: 0.5rem 1rem;
+  text-transform: uppercase;
   margin-bottom: 0;
   background-color: rgba(0, 0, 0, 0.03);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  border-bottom: 3px solid rgba(64, 60, 60, 0.125);
 }
 .card-header:first-child {
   border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;

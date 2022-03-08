@@ -10,12 +10,11 @@
 }
 
 .body-background {
-    background-image: url("../assets/home_background.JPG"); 
-    background-color: #cccccc;
-    background-size: cover;
+    /* background-image: url("../assets/home_background_slecht.JPG");  */
+    background-color: #bea087;
+    /* background-size: cover; */
 }
 .footer-beer {
-    position:absolute;
     bottom:0;
     width:100%;
     height: fit-content;   /* Height of the footer */

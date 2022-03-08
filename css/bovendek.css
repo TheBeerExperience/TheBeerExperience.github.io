@@ -1,0 +1,55 @@
+.rounded-button{
+    border-radius: 10px;
+    background-color: yellow;
+    position: absolute;
+  }
+  
+  #text-place{
+    position: absolute;
+    margin-left: 1000px;
+  }
+  
+  #button-1{
+    margin-left: 50px;
+    margin-top: 230px;
+  }
+
+  #button-2{
+    margin-left: 50px;
+    margin-top: 302px;
+  }
+
+  #button-3{
+    margin-left: 50px;
+    margin-top: 378px;
+  }
+
+  #button-4{
+    margin-left: 50px;
+    margin-top: 455px;
+  }
+
+  #button-5{
+    margin-left: 50px;
+    margin-top: 526px;
+  }
+
+  #button-6{
+    margin-left: 225px;
+    margin-top: 610px;
+  }
+
+  #button-7{
+    margin-left: 296px;
+    margin-top: 610px;
+  }
+
+  #button-8{
+    margin-left: 558px;
+    margin-top: 610px;
+  }
+
+  #button-9{
+    margin-left: 620px;
+    margin-top: 610px;
+  }

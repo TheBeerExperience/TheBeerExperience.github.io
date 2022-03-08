@@ -94,6 +94,11 @@ body {
   background-color: #dbdbdb;
   color: #403c3c;
 }
+
+.card-maps {
+  margin: 3rem !important;
+}
+
 hr {
   margin: 1rem 0;
   color: inherit;
@@ -4126,6 +4131,10 @@ textarea.form-control-lg {
 @media (max-width: 430px) {
   #navbar-beer-experience {
     display: none;
+  }
+
+  .card-maps {
+    margin: 1rem !important;
   }
 }
 
@@ -11343,6 +11352,11 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+
+.main-wrapper {
+  overflow: auto;
+}
+
 #wrapper {
   overflow-x: hidden;
 }

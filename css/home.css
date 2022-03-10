@@ -11,10 +11,10 @@
 
 .body-background {
     background-image: url("../assets/3_50.JPG");
-    background-color: #ff2200;
+    background-blend-mode: multiply !important;
+    background-color: #5b342e;
     background-size: cover;
     background-position: center;
-    background-blend-mode: multiply;
 }
 .footer-beer {
     bottom:0;

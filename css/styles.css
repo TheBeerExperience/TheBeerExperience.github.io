@@ -347,6 +347,18 @@ button {
   border-radius: 0;
 }
 
+.rounded-button{
+  border-radius: 10px;
+  background-color: transparent;
+  color: transparent;
+  position: absolute;
+  width: 38px;
+  height: 38px;
+  outline-style:initial;
+  border-radius: 100px;
+  border: transparent;
+}
+
 button:focus:not(:focus-visible) {
   outline: 0;
 }

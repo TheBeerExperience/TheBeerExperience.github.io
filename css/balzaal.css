@@ -7,12 +7,6 @@
     margin-left: 15px;
   }
   
-  .rounded-button{
-    border-radius: 10px;
-    background-color: yellow;
-    position: absolute;
-  }
-  
   #text-place{
     position: absolute;
     margin-left: 1000px;

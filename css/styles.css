@@ -98,6 +98,15 @@ body {
 .card-maps {
   margin: 3rem !important;
 }
+.card-deck {
+    display: flex;
+}
+.card-deck .card {
+  margin-right: 1.5rem !important;
+  margin-bottom: 0;
+  display: inline-block;
+  width: 30%;
+}
 
 hr {
   margin: 1rem 0;

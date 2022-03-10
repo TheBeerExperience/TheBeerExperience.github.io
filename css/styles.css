@@ -4575,9 +4575,9 @@ textarea.form-control-lg {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.5);
   background-clip: border-box;
-  border: 2px solid rgba(0, 0, 0, 0.125);
+  border: 4px solid rgba(0, 0, 0, 0.8);
   border-radius: 0.5rem;
 }
 .card > hr {

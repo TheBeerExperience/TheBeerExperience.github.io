@@ -11,7 +11,11 @@
 
 .body-background {
     /* background-image: url("../assets/home_background_slecht.JPG");  */
-    background-color: #bea087;
+    background-color: #5b342e;
+    /* background-color: #79443B;
+    background-color: #D2B48C;
+    background-color: #79443B;
+    background-color: #79443B; */
     /* background-size: cover; */
 }
 .footer-beer {
@@ -22,7 +26,8 @@
 
 .mask-custom {
     backdrop-filter: blur(5px);
-    background-color: rgba(255, 255, 255, .15);
+    /* background-color: rgba(255, 255, 255, .15); */
+    background-color: rgba(0, 0, 0, .3);
 }
 
 .footer-icons {

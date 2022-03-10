@@ -59,61 +59,44 @@
                     </div>
                     <div class="mt-3">
                         <div id="main-map mt-3">
-                            <map name="workmap">
-                                <!-- Naar Machines-->
-                                <area shape="circle" coords="720,500,65" alt="machines" href="machines.html">
-
-                                <!-- Naar Bovendesk-->
-                                <area shape="circle" coords="230,500,65" alt="bovendek" href="bovendek.html">
-
-
-                                <button class="rounded-button" id="button-10" onclick="showInformation(10)">10</button>
-                                <button class="rounded-button" id="button-11" onclick="showInformation(11)">11</button>
-                                <button class="rounded-button" id="button-12" onclick="showInformation(12)">12</button>
-                                <button class="rounded-button" id="button-13" onclick="showInformation(13)">13</button>
-                                <button class="rounded-button" id="button-14" onclick="showInformation(14)">14</button>
-                                <button class="rounded-button" id="button-15" onclick="showInformation(15)">15</button>
-                                <button class="rounded-button" id="button-16" onclick="showInformation(16)">16</button>
-                                <button class="rounded-button" id="button-17" onclick="showInformation(17)">17</button>
-                                <button class="rounded-button" id="button-18" onclick="showInformation(18)">18</button>
-                                <div id="text-place">
-                                    <h3 id="brouwerName"></h3>
-                                    <a id="brouwerLink" href="#" target="_blank"></a>
-                                    <p id="brouwerDescription"></p>
-                                    <div id="allBeers"></div>
+                            <div class="row">
+                                <div class="col-sm">
+                                    <map name="workmap">
+                                        <!-- Naar Machines-->
+                                        <area shape="circle" coords="720,500,65" alt="machines" href="machines.html">
+                                        <!-- Naar Bovendek-->
+                                        <area shape="circle" coords="230,500,65" alt="bovendek" href="bovendek.html">
+                                        <button class="rounded-button" id="button-10"
+                                            onclick="showInformation(10)">10</button>
+                                        <button class="rounded-button" id="button-11"
+                                            onclick="showInformation(11)">11</button>
+                                        <button class="rounded-button" id="button-12"
+                                            onclick="showInformation(12)">12</button>
+                                        <button class="rounded-button" id="button-13"
+                                            onclick="showInformation(13)">13</button>
+                                        <button class="rounded-button" id="button-14"
+                                            onclick="showInformation(14)">14</button>
+                                        <button class="rounded-button" id="button-15"
+                                            onclick="showInformation(15)">15</button>
+                                        <button class="rounded-button" id="button-16"
+                                            onclick="showInformation(16)">16</button>
+                                        <button class="rounded-button" id="button-17"
+                                            onclick="showInformation(17)">17</button>
+                                        <button class="rounded-button" id="button-18"
+                                            onclick="showInformation(18)">18</button>
+                                        <img id="map" usemap="#workmap" src="../../../assets/compressorenhal.png"
+                                            alt="Map">
+                                    </map>
                                 </div>
-                                <div class="mt-3">
-                                    <div id="main-map mt-3">
-                                        <map name="workmap">
-                                            <area shape="circle" coords="430,240,50" alt="Luchtfabriek"
-                                                href="foodpairing.html">
-                                            <button class="rounded-button" id="button-10"
-                                                onclick="showInformation(10)">10</button>
-                                            <button class="rounded-button" id="button-11"
-                                                onclick="showInformation(11)">11</button>
-                                            <button class="rounded-button" id="button-12"
-                                                onclick="showInformation(12)">12</button>
-                                            <button class="rounded-button" id="button-13"
-                                                onclick="showInformation(13)">13</button>
-                                            <button class="rounded-button" id="button-14"
-                                                onclick="showInformation(14)">14</button>
-                                            <button class="rounded-button" id="button-15"
-                                                onclick="showInformation(15)">15</button>
-                                            <button class="rounded-button" id="button-16"
-                                                onclick="showInformation(16)">16</button>
-                                            <button class="rounded-button" id="button-17"
-                                                onclick="showInformation(17)">17</button>
-                                            <button class="rounded-button" id="button-18"
-                                                onclick="showInformation(18)">18</button>
-                                            <div id="text-place">
-                                                <h3 id="name"></h3>
-                                                <p id="description"></p>
-                                            </div>
-                                            <img id="map" usemap="#workmap" src="../../../assets/compressorenhal.png"
-                                                alt="Map">
-                                        </map>
+                                <div class="col-sm">
+                                    <div id="text-place">
+                                        <h3 id="brouwerName"></h3>
+                                        <a id="brouwerLink" href="#" target="_blank"></a>
+                                        <p id="brouwerDescription"></p>
+                                        <div id="allBeers"></div>
                                     </div>
                                 </div>
+                            </div>
                         </div>
                     </div>
                 </div>

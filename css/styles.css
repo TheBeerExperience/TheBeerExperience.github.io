@@ -92,7 +92,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #dbdbdb;
-  color: #403c3c;
+  color: #351e1b;
 }
 
 .card-maps {
@@ -4142,6 +4142,10 @@ textarea.form-control-lg {
   .card {
     padding: 0.5rem !important;
   }
+
+  .navbar-logo {
+    margin-left: 0.2rem !important;
+  }
 }
 
 @media (min-width: 576px) {
@@ -4639,6 +4643,11 @@ textarea.form-control-lg {
   /* background-color: rgba(0, 0, 0, 0.03);
   border-bottom: 3px solid rgba(64, 60, 60, 0.125); */
 }
+
+.card-header > h1 {
+  font-weight: bold;
+}
+
 .card-header:first-child {
   border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
 }

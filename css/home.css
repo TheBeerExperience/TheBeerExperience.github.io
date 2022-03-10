@@ -10,9 +10,9 @@
 }
 
 .body-background {
+    background-color: #5b342e;
     background-image: url("../assets/background.jpg");
     background-blend-mode: multiply !important;
-    background-color: #5b342e;
     background-size: cover;
     background-position: center;
 }

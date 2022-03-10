@@ -12,10 +12,6 @@
 .body-background {
     background-image: url("../assets/3.JPG");
     background-color: #5b342e;
-    /* background-color: #79443B;
-    background-color: #D2B48C;
-    background-color: #79443B;
-    background-color: #79443B; */
     background-size: cover;
     background-position: center;
     background-blend-mode: multiply;

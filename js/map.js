@@ -1,7 +1,7 @@
 const brouwers = [
   {
     number: 1,
-    name: "Bierfirma De Hophemel",
+    name: "Hophemel",
     link: "https://www.hophemel.be",
     locatie: "bovendek",
     description:
@@ -134,12 +134,69 @@ const brouwers = [
   },
   {
     number: 4,
-    name: "Bierfirma Enigma",
+    name: "Enigma",
     locatie: "bovendek",
     link: "https://www.enigmabrewery.be/",
     description:
       "Enigma speelt op The Beer Experience een ware thuismatch. Brouwer Mark is afkomstig van Heusden-Zolder en verovert ondertussen België (en Europa) met zijn bieren in diverse stijlen, van blonde ales tot double IPA's. ",
-    beers: [],
+    beers: [
+        {
+            name: "Hopnytized Everyday IPA",
+            days: "Beschikbaar op zaterdag",
+            procent: "5,50%",
+            price: "1",
+            volume: "blik 33cl",
+            description: "Blonde IPA",
+          },
+          {
+            name: "Hopnytized Golden IPA",
+            days: "Beschikbaar op zaterdag",
+            procent: "8,50%",
+            price: "1",
+            volume: "blik 33cl",
+            description: "Blonde IPA, Festival Exclusive !!!",
+          },
+          {
+            name: "El Dorado Tripel IPA",
+            days: "Beschikbaar op zaterdag",
+            procent: "10,00%",
+            price: "1",
+            volume: "fles 33cl",
+            description: "Blonde Tripel IPA",
+          },
+          {
+            name: "Ragnaröck Blond",
+            days: "Beschikbaar op zondag",
+            procent: "5,50%",
+            price: "1",
+            volume: "fles 33cl",
+            description: "Blonde",
+          },
+          {
+            name: "Hopnytized Kveik IPAV2",
+            days: "Beschikbaar op zondag",
+            procent: "7,00%",
+            price: "1",
+            volume: "blik 33cl",
+            description: "Blonde IPA",
+          },
+          {
+            name: "Hopnytized DIPAV2",
+            days: "Beschikbaar op zondag",
+            procent: "9,00%",
+            price: "1",
+            volume: "blik 33cl",
+            description: "Blonde IPA",
+          },
+          {
+            name: "Hades Imperial Stout",
+            days: "Beschikbaar op zondag",
+            procent: "10,00%",
+            price: "1",
+            volume: "fles 33cl",
+            description: "Donkere Imperial Stout",
+          },
+    ],
   },
   {
     number: 5,
@@ -152,13 +209,38 @@ const brouwers = [
   },
   {
     number: 6,
-    name: "Brouwerij ‘t Aerts Paradijs",
+    name: "‘t Aerts Paradijs",
     link: "https://www.hetaertsparadijs.be/",
     locatie: "bovendek",
     description:
       "Brouwerij ‘t Aerts Paradijs is een kleine lokale brouwerij in Koersel onder leiding van Jeroen Aerts.\n" +
       "Op ambachtelijke wijze worden hier ciders, bieren en vruchtensappen geproduceerd, een échte lokale artisanale brouwerij.\n",
-    beers: [],
+    beers: [
+        {
+            name: "Paradijs Saison",
+            days: "Beschikbaar op zaterdag en zondag",
+            procent: "7,90%",
+            price: "1",
+            volume: "fles 33cl",
+            description: "Ongefilterd tarwebier gemaakt met belgische saisongist. Kruidig, met een aangename bitterheid van de gebruikte hoppen. De gist voegt nog een extra citrussmaak toe.  ",
+          },
+          {
+            name: "Paradijs Brons",
+            days: "Beschikbaar op zaterdag en zondag",
+            procent: "7,00%",
+            price: "1",
+            volume: "fles 33cl",
+            description: "Donkere dubbel, typisch Belgisch, met een aangenaam en vol aroma. Gebrouwen met 2 soorten hop wat een complexe smaak brengt. Caramelachtige karakter geeft het redelijk zoete afdronk. ",
+          },
+          {
+            name: "Paradijs Goud",
+            days: "Beschikbaar op zaterdag",
+            procent: "8,70%",
+            price: "1",
+            volume: "fles 33cl",
+            description: "Vlot drinkbaar, zoeter bier van het type Tripel. Gebrouwen met 3 types granen: gerst, tarwe en haver. Vol karakter. Koriander en appelsienzoet geven een extra kruidige toets aan het smakenpallet.",
+          }
+    ],
   },
   {
     number: 7,
@@ -171,39 +253,219 @@ const brouwers = [
   },
   {
     number: 8,
-    name: "Bierfirma Koolputter",
+    name: "Bèrringse Bier Brouwers",
     link: "https://www.koolputter.com",
     locatie: "bovendek",
     description:
       "Deze Bèrringse Bier Brouwers uit, ja, Beringen, ontwikkelen en brouwen de lekkerste mijnwerkersbieren sinds 2004. Uniek, straf, karaktervol en gegeerd in de mijngemeenten en omstreken.",
-    beers: [],
+    beers: [
+        {
+            name: "Koolputter Zwart",
+            days: "Beschikbaar op zaterdag en zondag",
+            procent: "10,00%",
+            price: "1",
+            volume: "fles 33cl",
+            description: "Imperial stout - zachte maar straffe stout",
+          },
+          {
+            name: "Koolputter Goud",
+            days: "Beschikbaar op zaterdag en zondag",
+            procent: "9,10%",
+            price: "1",
+            volume: "fles 33cl",
+            description: "Stevige tripel",
+          },
+          {
+            name: "Chef-Prion 2021",
+            days: "Beschikbaar op zaterdag",
+            procent: "6,50%",
+            price: "1",
+            volume: "fles 33cl",
+            description: "De droogste White IPA van 't land !",
+          }
+    ],
   },
   {
     number: 9,
-    name: "Bierfirma De Nachtraafbrouwers",
+    name: "De Nachtraafbrouwers",
     link: "http://www.nachtraafbier.be/",
     locatie: "bovendek",
     description:
       "De Nachtraafbrouwers uit Diksmuide, de firma achter het gamma liefhebbersbieren Nachtraaf. “Een nachtraaf is diegene die het laatst gaat slapen, hij of zij die er het beste tegen kan”. Een omschrijving die volgens de brouwers dan ook perfect past bij een goed degustatie-bier.",
-    beers: [],
+    beers: [
+        {
+            name: "De Witte Raaf",
+            days: "Beschikbaar op zaterdag",
+            procent: "5,00%",
+            price: "1",
+            volume: "fles 33cl",
+            description: "Traditioneel troebel witbier in de traditie van Pierre Celis uit Hoegaarden in de jaren ‘60. Prikkelende aroma’s van citroen en koriander. De tarwe zorgt voor een zachtheid en een dorstlessende nasmaak.",
+          },
+          {
+            name: "Nachtraaf Dubbel",
+            days: "Beschikbaar op zaterdag",
+            procent: "7,00%",
+            price: "1",
+            volume: "fles 33cl",
+            description: "Levend bruin speciaalbier dat mooi verder evolueert tijdens de tweede gisting op fles. Licht moutige, fruitige smaak en een zachtzoete nasmaak. Een romige, stevige schuimkraag.",
+          },
+          {
+            name: "Nachtraaf Tripel",
+            days: "Beschikbaar op zaterdag en zondag",
+            procent: "9,00%",
+            price: "1",
+            volume: "fles 33cl",
+            description: "Goudgeel bier met fijne pareling en stevige witte kraag. Hoppige smaak met moutige achtergrond en licht fruitachtige vanillesmaak.",
+          },
+          {
+            name: "Nachtraaf Quadrupel",
+            days: "Beschikbaar op zaterdag en zondag",
+            procent: "10,00%",
+            price: "1",
+            volume: "fles 33cl",
+            description: "Donkere amberbruine en heldere Barley met stevige, romige schuimkraag. De smaak is vol en zachtzoet met toetsen van karamel, gebrande mout en koffielikeur. In de lijn van de wereldvermaarde donkere Belgische Trappistenbieren.",
+          },
+          {
+            name: "Nachtraaf Zomers Blondje",
+            days: "Beschikbaar op zondag",
+            procent: "6,00%",
+            price: "1",
+            volume: "fles 33cl",
+            description: "Saisontype bier van hoge gisting. Moderne variant op de originele Henegouwse 'Saisons'. Goed gehopt en gekruid met dorstlessend karakter.",
+          },
+          {
+            name: "Nachtraaf Speciale-Amber",
+            days: "Beschikbaar op zaterdag",
+            procent: "6,00%",
+            price: "1",
+            volume: "fles 33cl",
+            description: "De traditionele brouwwijze van de typische 'Spéciale Belge' vertaald naar een modern helder bier van hoge gisting, met een toegankelijke en evenwichtige zoet-bitter balans. De smaak neigt naar het licht-fruitige, de afdronk is dan weer eerder hoppig.",
+          }
+    ],
   },
   {
     number: 10,
-    name: "Brouwerij De Leite",
+    name: "De Leite",
     link: "",
     locatie: "compressorenhal",
     description:
       "De Leite in Ruddervoorde, is het levenswerk van Luc Vermeersch. Hij richtte de brouwerij op in 2008 en bouwde z’n zaak stelselmatig uit van een hobby tot een familiale kmo.",
-    beers: [],
+    beers: [
+        {
+            name: "Enfant Terriple",
+            days: "Beschikbaar op zaterdag en zondag",
+            procent: "8,20%",
+            price: "1",
+            volume: "fles 33cl",
+            description: "Blonde tripel met fijne bitterheid en lichte citrustoets omkransd met een sober kruidige moutsmaak",
+          },
+          {
+            name: "Cuvée soeur Ise",
+            days: "Beschikbaar op zaterdag en zondag",
+            procent: "8,00%",
+            price: "1,5",
+            volume: "tap",
+            description: "Zacht zure tripel kriek",
+          },
+          {
+            name: "Paljas bruin",
+            days: "Beschikbaar op zaterdag en zondag",
+            procent: "6,00%",
+            price: "1",
+            volume: "fles 33cl",
+            description: "Zacht donker, de 4 mouten zorgen voor fijne chocolade en koffietoetsen.",
+          },
+          {
+            name: "Cuvée oncle Pol",
+            days: "Beschikbaar op zaterdag en zondag",
+            procent: "6,00%",
+            price: "1,5",
+            volume: "fles 33cl",
+            description: "Vlaams rood-bruin afgerond met mooie hoppige bitterheid",
+          },
+          {
+            name: "Paljas Rosé",
+            days: "Beschikbaar op zondag",
+            procent: "3,80%",
+            price: "1",
+            volume: "tap",
+            description: "Zoet fruitbier",
+          },
+    ],
   },
   {
     number: 11,
-    name: "Brouwerij Alvinne ",
+    name: "Brouwerij Alvinne",
     link: "https://www.alvinne.com/",
     locatie: "compressorenhal",
     description:
       "Uit Moen komt Brouwerij Alvinne. Alvinne is in Europa een pionier op het vlak van houtrijping en met hun eigen ontwikkelde gist brouwen ze (zure) bieren van wereldklasse",
-    beers: [],
+    beers: [
+        {
+            name: "Cuvee de Mortagne Margaux \"Chateau Kirwan\"",
+            days: "Beschikbaar op zaterdag",
+            procent: "12,80%",
+            price: "1,5",
+            volume: "tap",
+            description: "Barrel aged quadrupel - De Land van Mortagne gerijpt op 1ste gebruik Chateau Kirwan Margaux rode wijn vaten",
+          },
+          {
+            name: "Phi Rabarber",
+            days: "Beschikbaar op zaterdag",
+            procent: "8,00%",
+            price: "1",
+            volume: "tap",
+            description: "Sour ale - Blond zuur fruitbier van gemengde gisting (Morpheusgist) waarop een vijftal maanden rabarber heeft gemacereerd",
+          },
+          {
+            name: "Souterrain",
+            days: "Beschikbaar op zaterdag",
+            procent: "10,00%",
+            price: "1",
+            volume: "fles 33cl",
+            description: "Tarwewijn (wheatwine) - Volmondig, romig, stevig",
+          },
+          {
+            name: "Farmhouse Sour #5",
+            days: "Beschikbaar op zaterdag",
+            procent: "8,00%",
+            price: "1",
+            volume: "fles 33cl",
+            description: "Farmhouse sour - Blend van Saison & Tripel van gemengde gisting, blend van bier gerijpt op Moscatel, Witte Porto en Bordeaux rode wijn vaten.",
+          },
+          {
+            name: "Mano Negra Peated Whisky Barrel Aged",
+            days: "Beschikbaar op zondag",
+            procent: "10,00%",
+            price: "1,5",
+            volume: "tap",
+            description: "Belgian Imperial Stout - Gerijpt op Kilchoman peated whisky vat",
+          },
+          {
+            name: "Cuvée Jakub",
+            days: "Beschikbaar op zondag",
+            procent: "7,00%",
+            price: "1",
+            volume: "tap",
+            description: "Blonde Sour Ale gerijpt op een Chateauneuf du Pape foeder (25hl)",
+          },
+          {
+            name: "Morpheus Saison",
+            days: "Beschikbaar op zondag",
+            procent: "6,00%",
+            price: "1",
+            volume: "fles 33cl",
+            description: "Klassieke saison gebrouwen met zowel een saisongist als onze Morpheusgist waarvan de melkzuurbacteriën geneutraliseerd werden",
+          },
+          {
+            name: "Cuvée La Calavera",
+            days: "Beschikbaar op zondag",
+            procent: "5,00%",
+            price: "1",
+            volume: "fles 33cl",
+            description: "Collaboration brew met La Calavera (Sp.) - Fris vlot drinkbaar zuur bier gerijpt op Witte Port en rode wijn vaten (blend), met maceratie van granaatappel, pompelmoes, sinaasappel en kaneel.",
+          }
+    ],
   },
   {
     number: 12,
@@ -388,7 +650,7 @@ const brouwers = [
             procent: "6,00%",
             price: "1",
             volume: "blik",
-            description: "Experimental Series. Het zout als contrastmaker geeft een speciaal mondgevoel en nuanceert enige zurigheid. Extra diepte in het bier door de cirtrus. Complex, speels en interesant."
+            description: "Experimental Series. Het zout als contrastmaker geeft een speciaal mondgevoel en nuanceert enige zurigheid. Extra diepte in het bier door de cirtrus. Complex, speels en interessant."
         }
     ],
     locatie: "machines",
@@ -519,12 +781,67 @@ const brouwers = [
   },
   {
     number: 24,
-    name: "Brouwerij Brauw",
+    name: "BRAUW",
     link: "https://www.brauw.be",
     locatie: "balzaal",
     description:
       "Wauw, rauw, Brauw! De Genkse stadsbrouwerij Brauw brouwt niet enkel hun eigen bieren, ze geven ook andere brouwers de kans om te brouwen in hun gezellige brewpub. BRAUW draait om passie voor het brouwen en voor het bier.",
-    beers: [],
+    beers: [
+        {
+            name: "Jan Withops",
+            days: "Beschikbaar op zaterdag en zondag",
+            procent: "6,50%",
+            price: "1,5",
+            volume: "tap",
+            description:
+              "White IPA - Jan Withops is een White IPA. Dit bier combineert het beste van 2 stijlen. De moutstort en de kruiden zijn typisch voor een belgisch witbier. De hopgift is geïnspireerd op IPA’s, maar dan wel Europees gekleurd.",
+          },
+          {
+            name: "Armout Macleod",
+            days: "Beschikbaar op zondag",
+            procent: "8,40%",
+            price: "1",
+            volume: "fles 33cl",
+            description:
+              "Scotch Wee Heavy - Armout Macleod is een strong scotch ale (Wee Heavy). Bij dit bier komen de aroma’s grotendeels van de mouten, die verantwoordelijk zijn voor de carameltoetsen aanwezig in het bier.",
+          },
+          {
+            name: "Brauwsel#007",
+            days: "Beschikbaar op zondag",
+            procent: "5,70%",
+            price: "1",
+            volume: "fles 33cl",
+            description:
+              "Gose - Brauwsel #007 is het 7de experiment van BRAUW. Bij dit bier hebben we de gist Philly Sour getest. De gist geeft fruitige aroma's in combinatie met een melkzuur. Zoals de stijl voorschrijft is er ook zout toegevoegd.",
+          },
+          {
+            name: "Skogafoss",
+            days: "Beschikbaar op zaterdag",
+            procent: "10,70%",
+            price: "1",
+            volume: "fles 33cl",
+            description:
+              "Belgian quadruppel - Puffin Brewery; Skógafoss is one of the most powerful and largest waterfalls in Iceland. To give this beer some extra power, it has been infused with Brennivín, the national drink of Iceland. A distilled liquor made from fermented potato pulp, flavored with caraway seeds and angelica.",
+          },
+          {
+            name: "Brauwsel#008",
+            days: "Beschikbaar op zondag",
+            procent: "3,50%",
+            price: "1",
+            volume: "fles 33cl",
+            description:
+              "Eenkoorn-bier - Brauwsel#008 is het 8ste experiment van BRAUW. Bij dit bier hebben we het alternatieve graan Eenkoorn uitgeprobeerd. Het bier is gemaakt met  40% eenkoorn. ",
+          },
+          {
+            name: "Ferme IPA",
+            days: "Beschikbaar op zondag",
+            procent: "6,50%",
+            price: "1,5",
+            volume: "fles 33cl",
+            description:
+              "IPA Amarillo Amber - Een red IPA om U tegen te zeggen, een licht zoete aanzet van caramel dat meteen weggespoeld wordt door een droge hopbitterheid die goed gepaard gaat met de tropische Citrus aroma’s.",
+          },
+    ],
   },
   {
     number: 25,

@@ -209,12 +209,75 @@ const brouwers = [
     number: 12,
     name: "Brouwerij D'oude Maalderij",
     link: "",
-    locatie: "compressorenhal",
-    description:
-      "D'oude Maalderij werd gesticht in 2011 te Koolskamp. Brouwer Jef brouwt met de filosofie dat hij steeds de roerstok zelf ter hand neemt om zo oprecht en eerlijke de aloude traditie en meesterlijke kunst van brouwen te boefenen en dit enkel met hoogstaande ingrediënten. Meermaals verkozen als beste brewpub van België!",
-    beers: [],
-  },
-  {
+    description: "D'oude Maalderij werd gesticht in 2011 te Koolskamp. Brouwer Jef brouwt met de filosofie dat hij steeds de roerstok zelf ter hand neemt om zo oprecht en eerlijke de aloude traditie en meesterlijke kunst van brouwen te boefenen en dit enkel met hoogstaande ingrediënten. Meermaals verkozen als beste brewpub van België!",
+    beers: [
+        {
+            name: "Mox Jet",
+            days: "Beschikbaar op zaterdag en zondag",
+            procent: "5,50%",
+            price: "1",
+            volume: "fles 33cl",
+            description: "Bounty dipped in coffee, bier met natuurlijke toevoeging van koffie, cacao en kokos"
+        },
+        {
+            name: "Mox Emerald",
+            days: "Beschikbaar op zaterdag en zondag",
+            procent: "6,00%",
+            price: "1",
+            volume: "fles 33cl",
+            description: "Blond, met toevoeging van verse oostindische kers"
+        },
+        {
+            name: "Antibirus",
+            days: "Beschikbaar op zaterdag en zondag",
+            procent: "5,00%",
+            price: "1",
+            volume: "tap",
+            description: "Lockdownbier, gently smoked pilsner"
+        },
+        {
+            name: "Ristorno's en rabatten",
+            days: "Beschikbaar op zaterdag en zondag",
+            procent: "5,00%",
+            price: "1",
+            volume: "tap",
+            description: "Black IPA, gebrouwen ter ere van de belastingscontrole"
+        },
+        {
+            name: "Halloweener",
+            days: "Beschikbaar op zaterdag en zondag",
+            procent: "6,90%",
+            price: "1",
+            volume: "tap",
+            description: "Smoked butternutstout, vers gesneden en gerookte butternut stout"
+        },
+        {
+            name: "Lorelei",
+            days: "Beschikbaar op zaterdag en zondag",
+            procent: "14,00%",
+            price: "2",
+            volume: "tap",
+            description: "Barrel aged barley wine, 8 maand gerijpt op gouden carolus single malt whisky vaten"
+        },
+        {
+            name: "Lorelei #2",
+            days: "Beschikbaar op zaterdag en zondag",
+            procent: "14,00%",
+            price: "2",
+            volume: "fles",
+            description: "Barrel aged barley wine, 22 maand gerijpt op gouden carolus single malt whisky vaten"
+        },
+        {
+            name: "Stoffoasje",
+            days: "Beschikbaar op zaterdag en zondag",
+            procent: "8,50%",
+            price: "1",
+            volume: "fles",
+            description: "Niet gefilterde, niet gepasteuriseerde Belgische triple"
+        }
+    ],
+    locatie: "compressorenhal"
+}, {
     number: 13,
     name: "Brouwerij De Ranke ",
     link: "http://www.deranke.be/nl/bieren",
@@ -270,14 +333,66 @@ const brouwers = [
   },
   {
     number: 19,
-    name: "Brouwerij Poppels",
+    name: "Poppels",
     link: "",
+    description: "Ja, ook in Zweden kunnen ze bier brouwen. De Poppels Brouwerij ligt in Jonsered, een buitenwijk van Göteborg in Zweden, één van Europa’s hotspots op biergebied. Ze brouwen hun bier volledig biologisch. Wij houden van Poppels voor hun lekkere hoppige bieren met duidelijke signatuur",
+    beers: [
+        {
+            name: "Session IPA",
+            days: "Beschikbaar op zaterdag",
+            procent: "4,20%",
+            price: "1",
+            volume: "tap",
+            description: "Core range"
+        },
+        {
+            name: "Imperial NEIPA",
+            days: "Beschikbaar op zaterdag en zondag",
+            procent: "8,50%",
+            price: "1",
+            volume: "tap",
+            description: "Core range. Sappige New England IPA, dry hopped tijdens de vergisting. Smaakvol, bitter. hopbommetje."
+        },
+        {
+            name: "Rhum and Bourbon BA Stout",
+            days: "Beschikbaar op zaterdag",
+            procent: "13,50%",
+            price: "1,5",
+            volume: "fles 33cl",
+            description: "Selection Range, zeer smaakvolle stout. Dik, donker en straf, met toetsen chocolade, drop, bruine suiker en vanille"
+        },
+        {
+            name: "Strawberry Sour",
+            days: "Beschikbaar op zaterdag",
+            procent: "4,50%",
+            price: "1",
+            volume: "blik",
+            description: "Core range"
+        },{
+            name: "Passion Pale Ale",
+            days: "Beschikbaar op zondag",
+            procent: "5,20%",
+            price: "1",
+            volume: "tap",
+            description: "Core range"
+        },{
+            name: "DIPA",
+            days: "Beschikbaar op zondag",
+            procent: "8,00%",
+            price: "1",
+            volume: "fles 33cl",
+            description: "Core range"
+        },{
+            name: "Margarita Salty Sour",
+            days: "Beschikbaar op zondag",
+            procent: "6,00%",
+            price: "1",
+            volume: "blik",
+            description: "Experimental Series. Het zout als contrastmaker geeft een speciaal mondgevoel en nuanceert enige zurigheid. Extra diepte in het bier door de cirtrus. Complex, speels en interesant."
+        }
+    ],
     locatie: "machines",
-    description:
-      "Ja, ook in Zweden kunnen ze bier brouwen. De Poppels Brouwerij ligt in Jonsered, een buitenwijk van Göteborg in Zweden, één van Europa’s hotspots op biergebied. Ze brouwen hun bier volledig biologisch. Wij houden van Poppels voor hun lekkere hoppige bieren met duidelijke signatuur",
-    beers: [],
-  },
-  {
+}, {
     number: 20,
     name: "Bierfirma BOM Brewery",
     link: "",
@@ -485,38 +600,67 @@ const brouwers = [
   },
   {
     number: 31,
-    name: "...",
+    name: "Butchers Tears",
     link: "https://www.butchers-tears.com/",
     locatie: "ZwarteZaal",
     description: "...",
     beers: [
-      {
-        name: "So What",
-        days: "Beschikbaar op zaterdag en zondag",
-        procent: "7,00%",
-        price: "1,5",
-        volume: "vat van 20 liter",
-        description: "",
-      },
-      {
-        name: "Monster Soup SSS",
-        days: "Beschikbaar op zaterdag en zondag",
-        procent: "10,50%",
-        price: "1,5",
-        volume: "vat van 20 liter",
-        description: "",
-      },
-      {
-        name: "DitchWitch",
-        days: "Beschikbaar op zaterdag en zondag",
-        procent: "6,40%",
-        price: "1,5",
-        volume: "vat van 20 liter",
-        description: "",
-      },
-    ],
-  },
-  {
+        {
+            name: "So What",
+            days: "",
+            procent: "7,00%",
+            price: "1,5",
+            volume: "vat van 20 liter",
+            description: "English Strong Ale blended with malt vinegar"
+        }, {
+            name: "Monster Soup SSS",
+            days: "Beschikbaar op zaterdag en zondag",
+            procent: "10,50%",
+            price: "1,5",
+            volume: "vat van 20 liter",
+            description: "1877 Reid Triple Stout"
+        }, {
+            name: "Headroom",
+            days: "",
+            procent: "7,50%",
+            price: "1,5",
+            volume: "vat van 20 liter",
+            description: "London Double Brown Stout"
+        },
+        {
+            name: "Splash",
+            days: "Beschikbaar op zaterdag en zondag",
+            procent: "5,20%",
+            price: "1,5",
+            volume: "vat van 20 liter",
+            description: "Collab with Nevel, chevalier table beer with bog myrtle"
+        },
+        {
+            name: "Nobody's Darling",
+            days: "",
+            procent: "7,00%",
+            price: "1,5",
+            volume: "vat van 20 liter",
+            description: "Stock Pale Ale"
+        },
+        {
+            name: "Aruspex",
+            days: "",
+            procent: "8,00%",
+            price: "1,5",
+            volume: "vat van 20 liter",
+            description: "Peated Old Burton Ale"
+        },
+        {
+            name: "De Fluiter",
+            days: "",
+            procent: "5,10%",
+            price: "1",
+            volume: "fles 33cl",
+            description: "Beirisch/Dark Lager"
+        }
+    ]
+}, {
     number: 32,
     name: "Brouwerij Kemker Kultuur",
     link: "https://www.brauerei-kemker.de",

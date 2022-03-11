@@ -150,6 +150,11 @@
     <!-- Core theme JS-->
     <script src="../../../js/scripts.js"></script>
     <script src="../../../js/map.js"></script>
+    <script>
+        window.onload = function(){
+            showInformation(parseInt(sessionStorage.getItem("brewer")));
+        }
+    </script>
 </body>
 
 </html>

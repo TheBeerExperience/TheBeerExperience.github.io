@@ -674,6 +674,7 @@ const brouwers = [
 function showInformation(button) {
   // ASSIGN
   console.log("ik ben opgeroepen");
+  sessionStorage.clear();
   let brouwer = brouwers.find((brouwer) => brouwer.number === button);
 
   // SHOW DATA
@@ -728,21 +729,9 @@ function showInformation(button) {
     days.classList.add("beerListItem");
     days.innerHTML = currentBeer.days;
     listElement.appendChild(days);
+    
   }
+  
 
   
 }
-
-function showBrewers() {
-    console.log("test123");
-    let list = document.getElementById("myItemList");
-    brouwers.forEach((item) => {
-      let a = document.createElement("a");
-      a.innerText = item.name;
-      a.className = "list-group-item list-group-item-action";
-      a.href="Submappen/" + item.locatie + ".html";
-      a.id = "brewer" + item.number;
-      a.setAttribute("onclick", setAttributeForBrewers(item.number));
-      list.appendChild(a);
-    });
-  }

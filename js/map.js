@@ -1338,46 +1338,46 @@ const brouwers = [
                 description:
                     "Witbier",
             }, {
-                name: "La Cambre IPA ",
+                name: "Lupulus Bruin",
                 days: "Beschikbaar op zaterdag",
                 procent: "8,50%",
                 price: "1",
                 volume: "fles 33cl",
                 description:
-                    "IPA - Brussels abdijbier, verfrissend en rijkelijk gehopt",
+                    "Dubbel",
             },
             {
-                name: "Gouden Carolus Tripel  ",
+                name: "Lupulus Hopera",
                 days: "Beschikbaar op zondag",
                 procent: "6,00%",
                 price: "1",
                 volume: "tap",
                 description:
-                    "Tripel - Bier met een volmondige smaak die toch dorstlessend werkt",
+                    "Pale Ale",
             }, {
-                name: "La Cambre Blond ",
+                name: "Lupulus Hibernatus",
                 days: "Beschikbaar op zondag",
                 procent: "9,50%",
                 price: "1",
                 volume: "tap",
                 description:
-                    "Blond - Brussels abdijbier, blond en verfrissend",
+                    "Dark Ale",
             }, {
-                name: "Gouden Carolus Whisky Infused",
+                name: "Lupulus Organicus",
                 days: "Beschikbaar op zondag",
                 procent: "8,50%",
                 price: "1",
                 volume: "fles 33cl",
                 description:
-                    "Donker speciaalbier - krachtig en volmondig met subtiele toetsen van vanille, eikenhout en chocolade. Een keizerlijk brouwsel om te koesteren.",
+                    "Tripel",
             }, {
-                name: "La Cambre IPA ",
+                name: "Lupulus Pils",
                 days: "Beschikbaar op zondag",
                 procent: "5,00%",
                 price: "1",
                 volume: "fles 33cl",
                 description:
-                    "IPA - Brussels abdijbier, verfrissend en rijkelijk gehopt",
+                    "Pils",
             }
         ],
     },
@@ -1388,7 +1388,74 @@ const brouwers = [
         location: "balzaal",
         description:
             "Deze microbrouwerij uit Hove is misschien één van de kleinste brouwerijen van België. Ze zijn bekend van hun Hip-Hop-bieren.",
-        beers: [],
+        beers: [
+            {
+                name: "HipHop Tripel3X6",
+                days: "Beschikbaar op zaterdag",
+                procent: "8,00%",
+                price: "1",
+                volume: "fles 33cl",
+                description:
+                    "Lichte Tripel - Gebrouwen met tarwe, pilsmout en haver met duidelijk een lichte hop toets aanwezig",
+            }, {
+                name: "HipHop Double IPA",
+                days: "Beschikbaar op zaterdag",
+                procent: "6,00%",
+                price: "1",
+                volume: "fles 33cl",
+                description:
+                    "Double IPA - Gemaakt van 100% Munich mout, meervoudige hop gift tijdens de kook en gedryhopt.",
+            }, {
+                name: "HipHop Funky Chicken",
+                days: "Beschikbaar op zaterdag",
+                procent: "6,00%",
+                price: "1",
+                volume: "fles 33cl",
+                description:
+                    "Een IPA met een extra toets van Australische Habanero pepers die een tinteling geven die leuk samen gaat met de aromatische hoppen.",
+            }, {
+                name: "HipHop Blond",
+                days: "Beschikbaar op zaterdag",
+                procent: "4,50%",
+                price: "1",
+                volume: "fles 33cl",
+                description:
+                    "Licht blond Bier - Vlot drinkbare dorstlesser.",
+            },
+            {
+                name: "HipHop Milkshake",
+                days: "Beschikbaar op zondag",
+                procent: "6,50%",
+                price: "1",
+                volume: "fles 33cl",
+                description:
+                    "IPA met een milkshake toets, de fruitigheid van hop en zoet van melksuiker.",
+            }, {
+                name: "HipHop Orange Crush",
+                days: "Beschikbaar op zondag",
+                procent: "6,00%",
+                price: "1",
+                volume: "tap",
+                description:
+                    "IPA - Met Mandarina Bavaria hop en stevige hoeveelheid appelsienschil toegevoegd, bier met een serieuze citrus toets.",
+            }, {
+                name: "HipHop Weyninckhoven",
+                days: "Beschikbaar op zondag",
+                procent: "6,00%",
+                price: "1",
+                volume: "fles 33cl",
+                description:
+                    "Saison - Een bescheiden Kasteel Bier/Saison, een mengbier van twee verschillende brouwsels. Zeer toegankelijk voor iedere bierliefhebber.",
+            }, {
+                name: "HipHop Monk Johnny",
+                days: "Beschikbaar op zondag",
+                procent: "10,00%",
+                price: "1",
+                volume: "fles 33cl",
+                description:
+                    "Quadruppel - Gebrouwen met maximale dosis moutstort waaronder geroosterde mouten met toevoeging van de vBelgische specialiteit kandijsuiker. Ga zitten en geniet van deze goddelijke drank.",
+            }
+        ],
     },
     {
         number: 30,
@@ -1623,7 +1690,62 @@ const brouwers = [
         location: "ZwarteZaal",
         description:
             "Uit Genéve, Zwitserland, komt Chien Bleu Brasserie en ze brengen bieren die traditie combineert met moderniteit. De bieren in het reguliere assortiment worden gefermenteerd met gisten uit agrarische tradities met de nadruk op granen, evenals Europese en Amerikaanse hop.",
-        beers: [],
+        beers: [
+            {
+                name: "Chien Bleu Otto",
+                days: "Beschikbaar op zaterdag en zondag",
+                procent: "6,90%",
+                price: "2",
+                volume: "fles 33cl",
+                description:
+                    "Blend of Bière de Garde with Autumn Fruits aged 20 months (20% of the blend) and an Amber Ale aged 6 months in Barrels. Added with Local Herbs and Orange / Grapes maceration",
+            },
+            {
+                name: "Chien Bleu Giotto",
+                days: "Beschikbaar op zaterdag en zondag",
+                procent: "6,00%",
+                price: "2",
+                volume: "fles 75cl",
+                description:
+                    "Blended of 60% young prune beer with 20% grape beer (Pinot Noir)and 20% spontaneous cherry beer from 2019",
+            },
+            {
+                name: "Chien Andalou",
+                days: "Beschikbaar op zaterdag en zondag",
+                procent: "6,00%",
+                price: "2",
+                volume: "fles 75cl",
+                description:
+                    "Three spontan beers blend with Solera method, 3 years (20%), 2 years (20%) & 1 year (60%). Barrel aged in Sherry and Pedro Ximenez",
+            },
+            {
+                name: "Abricot 2021",
+                days: "Beschikbaar op zaterdag en zondag",
+                procent: "6,70%",
+                price: "2",
+                volume: "fles 75cl",
+                description:
+                    "Saison / Farmhouse ale met abrikozen",
+            },
+            {
+                name: "Pêche Jaune 2021",
+                days: "Beschikbaar op zaterdag en zondag",
+                procent: "",
+                price: "2",
+                volume: "fles 75cl",
+                description:
+                    "Saison / Farmhouse ale met perziken ",
+            },
+            {
+                name: "Sybil",
+                days: "Beschikbaar op zaterdag en zondag",
+                procent: "8,20%",
+                price: "2",
+                volume: "fles 75cl",
+                description:
+                    "Saison / Farmhouse ale met aardbei, rabarber en sparrenknoppen",
+            },
+        ],
     },
     {
         number: 35,

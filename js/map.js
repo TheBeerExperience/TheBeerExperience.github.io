@@ -1502,7 +1502,6 @@ const brouwers = [
         ],
     },
 ];
-
 function showInformation(button) {
     // ASSIGN
     sessionStorage.clear();

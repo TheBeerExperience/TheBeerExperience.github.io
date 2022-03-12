@@ -733,7 +733,53 @@ const brouwers = [
         location: "compressorenhal",
         description:
             "Wat begon als een kleine micro-brouwerij met brasserie is ondertussen uitgegroeid naar een meer dan volwaardige brouwerij in Lendelede die uitblinkt in verschillende stijlen, van tripels, over IPA's naar gerijpte bieren!",
-        beers: [],
+        beers: [
+            {
+                name: "Maître Brut",
+                days: "Beschikbaar op zaterdag en zondag",
+                procent: "11,00%",
+                price: "1",
+                volume: "fles",
+                description:
+                    "Brut bier, sprankelend aperitiefbier met een krachtig fruitig karakter en een fijne hoptoets in de nasmaak. 4 maanden gelagerd op chardonnay wijnvaten.",
+            },
+            {
+                name: "Mok Master",
+                days: "Beschikbaar op zaterdag",
+                procent: "13,00%",
+                price: "1,5",
+                volume: "tap",
+                description:
+                    "Imperial Coffee Stout met toetsen van gebrande koffie, eik en chocolade. 6 maanden gerijpt op Heaven Hill bourbon whisky vaten.",
+            },
+            {
+                name: "Grain Master",
+                days: "Beschikbaar op zaterdag en zondag",
+                procent: "13,00%",
+                price: "1,5",
+                volume: "tap",
+                description:
+                    "Double mash barley wine, 6 maanden gerijpt op Bourbon Whisky vaten Gouden Carolus single malt.",
+            },
+            {
+                name: "Meestereske Tripel Fresh Hop",
+                days: "Beschikbaar op zaterdag en zondag",
+                procent: "8,50%",
+                price: "1",
+                volume: "tap",
+                description:
+                    "Tripel met florale fruitige bitterheid en een zachte afdronk. Gebrouwen met verse centennial hop, oogst 2021",
+            },
+            {
+                name: "Black Master",
+                days: "Beschikbaar op zondag",
+                procent: "12,00%",
+                price: "1,5",
+                volume: "tap",
+                description:
+                    "Een diep donkere Imperial Stout met lichte turf, koffie en chocolade. 4 Maanden gerijpt op Bourbon Whisky vaten Gouden Carolus single malt.",
+            }
+        ],
     },
     {
         number: 17,
@@ -1007,12 +1053,58 @@ const brouwers = [
     },
     {
         number: 23,
-        name: "Bierfirma Force Majeur",
+        name: "Force Majeure",
         link: "https://www.forcemajeure.be/",
         location: "balzaal",
         description:
-            "Force Majeur uit Genk ontwikkelt enkel en alleen alcoholvrije bieren. Triatleet Stijn Panis combineerde in 2019 zijn goesting in speciaalbier met zijn passie voor ondernemen. Het resultaat: Force Majeure. Het eerste échte Belgische alcoholvrije biermerk. 100% Belgisch, 100% smaak en toch 0% alcohol.",
-        beers: [],
+            "Force Majeure uit Genk ontwikkelt enkel en alleen alcoholvrije bieren. Triatleet Stijn Panis combineerde in 2019 zijn goesting in speciaalbier met zijn passie voor ondernemen. Het resultaat: Force Majeure. Het eerste échte Belgische alcoholvrije biermerk. 100% Belgisch, 100% smaak en toch 0% alcohol.",
+        beers: [
+            {
+                name: "Force Majeure Traditional blond",
+                days: "Beschikbaar op zaterdag en zondag",
+                procent: "0,40%",
+                price: "1",
+                volume: "fles 33cl",
+                description:
+                    "Een nieuw blond bier met een vertrouwde smaak, da’s onze Traditional blond. Vol en toch fris, balancerend op de grens tussen bitter en hoppig. 100% smaakt en 0% alcohol",
+            },
+            {
+                name: "Force Majeure Tripel",
+                days: "Beschikbaar op zaterdag en zondag",
+                procent: "0,40%",
+                price: "1",
+                volume: "fles 33cl",
+                description:
+                    "Onze Tripel is een echte smaakmarathon. Hij loopt vlot mee langs zijn grote broers, en finisht met een onverwacht kruidige afdronk. Hiervoor applaudisseren zelfs de meest getrainde kenners van speciaalbier. Drie granen, driedubbele smaak, nul alcohol.",
+            },
+            {
+                name: "Force Majeure Bruin",
+                days: "Beschikbaar op zaterdag en zondag",
+                procent: "0,40%",
+                price: "1",
+                volume: "fles 33cl",
+                description:
+                    "Dit bruin bier gaat ‘vollen bak’ voor een echt Belgische traditie. Toetsen van karamel, kaneel en een hint van gebrande mout: een écht Belgisch bruin bier en toch 0% alcohol",
+            },
+            {
+                name: "Force Majeure Kriek",
+                days: "Beschikbaar op zaterdag en zondag",
+                procent: "0,40%",
+                price: "1",
+                volume: "fles 33cl",
+                description:
+                    "De Kriek bewijst dat echt fruitbier ook zonder alcohol kan. Met z’n frisfruitige, licht zurige afdronk is deze klassieker eindelijk geen verboden vrucht meer voor wie op zoek is naar 100% fruitbier en 0% alcohol.",
+            },
+            {
+                name: "Force Majeure Tripel Hop",
+                days: "",
+                procent: "0,40%",
+                price: "1",
+                volume: "fles 33cl",
+                description:
+                    "Hop hop hop! Mag het wat meer zijn? Speciaal voor de liefhebbers van sterk, bitter bier speelt je favoriete ingrediënt hier de hoofdrol. Meer hopppiness.",
+            },
+        ],
     },
     {
         number: 24,
@@ -1080,12 +1172,67 @@ const brouwers = [
     },
     {
         number: 25,
-        name: "Brouwerij De La Senne",
+        name: "Brasserie De La Senne",
         link: "https://www.brasseriedelasenne.be/",
         location: "balzaal",
         description:
             'Brasserie De La Senne stond mee aan de wieg van de "nieuwe golf" van craft bier in Brussel (en België). Zij produceren bittere bieren vanaf hun prilste begin – en zij bestaan om bittere bieren te produceren!',
-        beers: [],
+        beers: [
+            {
+                name: "Taras Boulba",
+                days: "Beschikbaar op zaterdag en zondag",
+                procent: "4,50%",
+                price: "1",
+                volume: "tap",
+                description:
+                    "Noble Hop Session Beer - Taras Boulba is dorstlessend bier, licht en verfrissend, maar met een sterk karakter. Blond en licht troebel, aroma’s van nobele hops in dry-hopping, kruidige, bloemige en licht citroenachtige toets. Krachtige bitterheid, droge finale. Toetsen van mout en verse granen, en fruitige/kruidige fermentatie-aroma’s.",
+            },
+            {
+                name: "Zinnebir",
+                days: "Beschikbaar op zaterdag",
+                procent: "5,80%",
+                price: "1",
+                volume: "tap",
+                description:
+                    "Belgian Pale Ale - Zinnebir is een goudkleurig, perfect gebalanceerde Pale Ale. Fruitige en hoppige aroma’s richting gedroogde abrikozen en sinaasappelconfituur. Een moutig karakter en mooie bitterheid. Hun allereerste bier, geboren in de kelders van een Brussels kraakpand (2002).",
+            },
+            {
+                name: "Stouterik",
+                days: "Beschikbaar op zaterdag en zondag",
+                procent: "5,00%",
+                price: "1",
+                volume: "tap",
+                description:
+                    "Dry Stout - Stouterik is een klassieke “Dry Stout” volgens Ierse traditie, doordrinkbaar, maar met een eigen karakter. De kleur is diep zwart met een nuance van robijn. Gebrande koffie-accenten, gebalanceerd door een zacht romig karakter. Fijne bitterheid, met een droge en verbazend verfrissende finale.",
+            },
+            {
+                name: "Jambe-de-Bois",
+                days: "Beschikbaar op zaterdag",
+                procent: "8,00%",
+                price: "1",
+                volume: "tap",
+                description:
+                    "Hoppy Tripel - Jambe-de-Bois is een genereus gehopte Tripel. Gebalanceerd en verleidelijk. Fermentatie-aroma’s overheersen, toetsen van peer en rijpe banaan. De hop geeft bloemige en kruidige accenten (witte peper, nootmuskaat). Het alcoholgehalte maakt de smaak tamelijk rond, maar door de afwezigheid van restsuikers is de finale droog en licht bitter.",
+            },
+            {
+                name: "Brussels Calling",
+                days: "Beschikbaar op zondag",
+                procent: "6,50%",
+                price: "1",
+                volume: "tap",
+                description:
+                    "Blond Belgian IPA - De Brussels Calling heeft een fruitige (bergamot, perzik) en af en toe florale (narcis) neus. In de mond worden deze aroma's intenser, met daaronder een moutige basis. Nieuwe florale toesten en zelfs wat eucalyptus. In de finale is er fruitigheid en een lange, droge bitterheid. Stevig gedryhopt is, te zien in de gesluierde kleur!",
+            },
+            {
+                name: "Zenne Pils",
+                days: "Beschikbaar op zondag",
+                procent: "4,90%",
+                price: "1",
+                volume: "tap",
+                description:
+                    "Unfiltered Craft Lager - Zenne Pils is een bier van lage gisting. Gebrouwen in de traditionele decoctie-methode wat diepte en complexiteit aan het moutige karakter geeft. Licht troebel met een fijne bitterheid. Genereus gehopt met nobele oude variëteiten van Duitse hops.",
+            },
+        ],
     },
     {
         number: 26,
@@ -1165,7 +1312,74 @@ const brouwers = [
         location: "balzaal",
         description:
             "Brouwerij Lupulus uit Courtil, Henegouwen, is een echte familiebrouwerij waar de vader en zijn 2 zonen aan het hoofd staan. De Latijnse naam voor hop is Humulus Lupulus, wat letterlijk vertaald « kleine nederige wolf » betekent.  Vandaar de naam, Lupulus, en het logo met de kleine wolf.",
-        beers: [],
+        beers: [
+            {
+                name: "Lupulus Blonde",
+                days: "Beschikbaar op zaterdag",
+                procent: "8,50%",
+                price: "1",
+                volume: "tap",
+                description:
+                    "Tripel",
+            }, {
+                name: "Lupulus Fructus",
+                days: "Beschikbaar op zaterdag",
+                procent: "4,20%",
+                price: "2",
+                volume: "tap",
+                description:
+                    "Fruitbier",
+            }, {
+                name: "Lupulus Blanche",
+                days: "Beschikbaar op zaterdag",
+                procent: "4,50%",
+                price: "1",
+                volume: "fles 33cl",
+                description:
+                    "Witbier",
+            }, {
+                name: "La Cambre IPA ",
+                days: "Beschikbaar op zaterdag",
+                procent: "8,50%",
+                price: "1",
+                volume: "fles 33cl",
+                description:
+                    "IPA - Brussels abdijbier, verfrissend en rijkelijk gehopt",
+            },
+            {
+                name: "Gouden Carolus Tripel  ",
+                days: "Beschikbaar op zondag",
+                procent: "6,00%",
+                price: "1",
+                volume: "tap",
+                description:
+                    "Tripel - Bier met een volmondige smaak die toch dorstlessend werkt",
+            }, {
+                name: "La Cambre Blond ",
+                days: "Beschikbaar op zondag",
+                procent: "9,50%",
+                price: "1",
+                volume: "tap",
+                description:
+                    "Blond - Brussels abdijbier, blond en verfrissend",
+            }, {
+                name: "Gouden Carolus Whisky Infused",
+                days: "Beschikbaar op zondag",
+                procent: "8,50%",
+                price: "1",
+                volume: "fles 33cl",
+                description:
+                    "Donker speciaalbier - krachtig en volmondig met subtiele toetsen van vanille, eikenhout en chocolade. Een keizerlijk brouwsel om te koesteren.",
+            }, {
+                name: "La Cambre IPA ",
+                days: "Beschikbaar op zondag",
+                procent: "5,00%",
+                price: "1",
+                volume: "fles 33cl",
+                description:
+                    "IPA - Brussels abdijbier, verfrissend en rijkelijk gehopt",
+            }
+        ],
     },
     {
         number: 29,

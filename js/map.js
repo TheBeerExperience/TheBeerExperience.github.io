@@ -35,13 +35,13 @@ const brouwers = [
                     "Heavy, dark stout with flavours of chocolate and hazelnuts – refering to the famous praline.",
             },
             {
-                name: "#NO NAME YET# Sour IPA",
+                name: "Gildas Beetroot Sour IPA",
                 days: "Beschikbaar op zaterdag",
                 procent: "7,00%",
                 price: "1",
                 volume: "fles 33cl",
                 description:
-                    "A sour and at the same time slightly bitter, blonde beer, hopped with citra. (#possibly infused with cucumber-juice?#)",
+                    "A sour and at the same time slightly bitter beer, hopped with citraand infused with (red) beetroot juice. Philly Sour yeast.",
             },
             {
                 name: "Florentius Black IPA",
@@ -83,21 +83,29 @@ const brouwers = [
     },
     {
         number: 2,
-        name: "...",
+        name: "Brasserie Surréaliste",
         link: "https://www.brasseriesurrealiste.com",
         location: "bovendek",
-        description: "...",
+        description: "Brasserie Surréaliste is één van de nieuwe bierprojecten uit Brussel. \"Beyond the rules, rabbits and reality, they create the beers of our dreams\"",
         beers: [
             {
-                name: "Dance Rave Dance",
-                days: "Beschikbaar op zaterdag en zondag",
-                procent: "4,20%",
+                name: "Surréaliste",
+                days: "Beschikbaar op zaterdag",
+                procent: "5,60%",
                 price: "1",
-                volume: "vat",
-                description: "Session IPA w. Citra, Nelson, Motueka",
+                volume: "tap",
+                description: "Pale Ale dry-hopped with Citra, Mosaic and Simcoe",
             },
             {
-                name: "Double Trouble ",
+                name: "Blueberries Effect",
+                days: "Beschikbaar op zaterdag",
+                procent: "6,00%",
+                price: "1,5",
+                volume: "fles",
+                description: "Barrel aged sour with blueberries and blackberries",
+            },
+            {
+                name: "Double Trouble",
                 days: "Beschikbaar op zaterdag en zondag",
                 procent: "8,50%",
                 price: "1",
@@ -105,28 +113,36 @@ const brouwers = [
                 description: "Double IPA hopped with Citra, Galaxy, Mosaic, and Nelson",
             },
             {
-                name: "Blueberries Effect",
+                name: "Dream in Mosaic",
                 days: "Beschikbaar op zaterdag en zondag",
-                procent: "6,00%",
-                price: "1,5",
-                volume: "fles",
-                description: "Barrel aged sour with blueberries and blackberries",
+                procent: "6,50%",
+                price: "1",
+                volume: "vat",
+                description: "India Pale Ale brewed with oats and hopped only with Mosaic",
             },
             {
-                name: "Cosmic Rainbow",
-                days: "Beschikbaar op zaterdag en zondag",
-                procent: "7,20%",
+                name: "Dance Rave Dance",
+                days: "Beschikbaar op zondag",
+                procent: "4,20%",
                 price: "1",
-                volume: "fles",
+                volume: "vat",
+                description: "Session IPA w. Citra, Nelson, Motueka",
+            },
+            {
+                name: "Venus Effect",
+                days: "Beschikbaar op zondag",
+                procent: "4,50%",
+                price: "1",
+                volume: "tap",
                 description:
-                    "India Porter hopped with Simcoe, Centennial and Vic Secret",
+                    "Gose-style sour ale dry-hopped with Chinook, El Dorado and Idaho 7",
             },
         ],
     },
     {
         number: 3,
-        name: "Brouwerij Abbaye de Rocs",
-        link: "",
+        name: "Abbaye de Rocs",
+        link: "https://nl.abbayedesrocs.com/ons",
         location: "bovendek",
         description:
             "Uit Honnelles, Henegouwen, komt Abbaye de Rocs, een ware klassieker!  In 1979 kregen zij als eerste brouwerij na WO II een vergunning om een microbrouwerij te creëren in België. Het materiaal dat nodig is om bier te produceren bestond niet voor zulke kleine hoeveelheden en de eerste productiemachines werden tot stand gebracht op basis van recuperatiemateriaal.",
@@ -210,7 +226,7 @@ const brouwers = [
                 name: "Flora Sour Cherry",
                 days: "Beschikbaar op zaterdag",
                 procent: "3,50%",
-                price: "2",
+                price: "1",
                 volume: "fles 33cl",
                 description: "Zacht zure kriek gerijpt op Bordeaux vaten"
             },
@@ -218,7 +234,7 @@ const brouwers = [
                 name: "Cydonia Barocca",
                 days: "Beschikbaar op zaterdag",
                 procent: "8,00%",
-                price: "3",
+                price: "1,5",
                 volume: "fles 33cl",
                 description: "Een krachtige tripel van lage gisting met een warme kruidigheid en een fijne toets van kweepeer, een vergeten vrucht."
             },
@@ -226,7 +242,7 @@ const brouwers = [
                 name: "Oud Brood",
                 days: "Beschikbaar op zaterdag",
                 procent: "6,00%",
-                price: "3",
+                price: "1,5",
                 volume: "fles 33cl",
                 description: "Gemaakt i.s.m. bio bakkerijen. Voor dit bruin bier worden overschotten van biologisch desembrood getoast en verkruimeld."
             },
@@ -234,12 +250,21 @@ const brouwers = [
                 name: "David 8.5",
                 days: "Beschikbaar op zaterdag",
                 procent: "8,50%",
-                price: "3",
+                price: "1,5",
                 volume: "fles 33cl",
                 description: "Strong Blond - Een dorstlesser van formaat met een subtiele bitterheid, verfijnde frisse hopsmaken, met citrus en perzik in de neus. Zilver op de World Beer Awards 2021."
             }
         ],
     },
+    // {
+    //     number: 5,
+    //     name: "Remise 56 (zondag)",
+    //     link: "",
+    //     location: "bovendek",
+    //     description:
+    //         "",
+    //     beers: [],
+    // },
     {
         number: 6,
         name: "‘t Aerts Paradijs",
@@ -1320,7 +1345,7 @@ const brouwers = [
                 price: "1",
                 volume: "tap",
                 description:
-                    "Tripel",
+                    "Goudblonde tripel, lichtjes gesluierd, met een ivoorkleurige schuimkraag. Citrus en mout aroma's, lichtjes hoppig. Fris en gecontroleerde bitterheid, met kruidige smaak van thijm.",
             }, {
                 name: "Lupulus Fructus",
                 days: "Beschikbaar op zaterdag",
@@ -1328,7 +1353,7 @@ const brouwers = [
                 price: "2",
                 volume: "tap",
                 description:
-                    "Fruitbier",
+                    "Fruitbier. Rode kleur \"vermillon\" bedekt met een roos kleurige schuim. Aroma's van frambozen en zure kersen. Fruitige smaken met een pittige nasmaak.",
             }, {
                 name: "Lupulus Blanche",
                 days: "Beschikbaar op zaterdag",
@@ -1336,7 +1361,7 @@ const brouwers = [
                 price: "1",
                 volume: "fles 33cl",
                 description:
-                    "Witbier",
+                    "Witbier, licht gesluierd en met een fijne schuimkraag. Een fris aromatische neus met een zachte toets van citrus. Verfrissende smaken, met een aangename lichte bittere toets in de afdronk.",
             }, {
                 name: "Lupulus Bruin",
                 days: "Beschikbaar op zaterdag",
@@ -1344,7 +1369,7 @@ const brouwers = [
                 price: "1",
                 volume: "fles 33cl",
                 description:
-                    "Dubbel",
+                    "Een artisanaal bruin bier, licht donker, met mooie heldere reflecties. Verschillend van de traditionele bruine dubbels, door zijn zachte karakter en lichte citrus van aroma's in de afdronk.",
             },
             {
                 name: "Lupulus Hopera",
@@ -1353,7 +1378,7 @@ const brouwers = [
                 price: "1",
                 volume: "tap",
                 description:
-                    "Pale Ale",
+                    "Pale Ale. Amberkleurig, lichtjes troebel bier. Een krachtige neus, met een breed aromatisch hoppig palet. Droog , met een uitgesproken maar gebalanceerde bitterheid.",
             }, {
                 name: "Lupulus Hibernatus",
                 days: "Beschikbaar op zondag",
@@ -1361,7 +1386,7 @@ const brouwers = [
                 price: "1",
                 volume: "tap",
                 description:
-                    "Dark Ale",
+                    "Dark Ale.Lupulus Sterk donker bier. Eens aan het kookpunt, wordt een beetje canneel toegevoegd. De mix met getorrificeerde gist geeft dit bier een krachtig karakter. De nasmaak is bitterzoet en eindigd met koffiearoma's.",
             }, {
                 name: "Lupulus Organicus",
                 days: "Beschikbaar op zondag",
@@ -1369,7 +1394,7 @@ const brouwers = [
                 price: "1",
                 volume: "fles 33cl",
                 description:
-                    "Tripel",
+                    "Bio tripel. Goudkleurig, lichtjes gesluierd met een witte kol. Florale aroma's met een lichte geur van gist. Fruitige en kruidachtige smaken met een aangename bitterheid op het einde van de degustatie.",
             }, {
                 name: "Lupulus Pils",
                 days: "Beschikbaar op zondag",
@@ -1377,7 +1402,7 @@ const brouwers = [
                 price: "1",
                 volume: "fles 33cl",
                 description:
-                    "Pils",
+                    "Pilsje tussendoor, toch ?",
             }
         ],
     },
@@ -1471,7 +1496,7 @@ const brouwers = [
                 price: "1",
                 volume: "tap",
                 description:
-                    "Belgian abbey blonde",
+                    "Het eerste Limburgs Abdijbier in 1994 gecreëerd op Ter Dolen. Gebrouwen met twee soorten mout en twee edele hopsoorten, hergist op fles. Een volle zachte smaak, een goede dorstlesser.",
             },
             {
                 name: "Ter Dolen Armand",
@@ -1480,7 +1505,7 @@ const brouwers = [
                 price: "1",
                 volume: "tap",
                 description:
-                    "Light bitter/belgian blonde",
+                    "Een fruitig blond bier met een explosie van citrus, resultaat van dry-hopping met de Amerikaanse hopsoort Cascade. Om de hoparoma’s te bewaren wordt het bier niet gefilterd. Licht troebel met een kraakwitte schuimkraag. Ontworpen ter ere van de medestichter “Armand Desplenter”, vader van Mieke Desplenter.",
             },
             {
                 name: "Ter Dolen Tripel",
@@ -1489,7 +1514,7 @@ const brouwers = [
                 price: "1",
                 volume: "tap",
                 description:
-                    "Belgian tripel",
+                    "Een volwaardige volmout tripel van koperblonde kleur, met twee soorten mout en twee soorten hop. Door bij het brouwen uitsluitend graan te gebruiken wordt de malsheid nog versterkt en heeft dit bier een rijke volmondigheid.",
             },
             {
                 name: "Ter Dolen Kriek",
@@ -1498,7 +1523,7 @@ const brouwers = [
                 price: "1",
                 volume: "tap",
                 description:
-                    "Fruit beer",
+                    "Ongefilterd bier van hoge gisting met toevoeging van vers kriekensap, gemaakt van één soort mout en tarwe en twee soorten hop. Met een finishing touch van kruiden als koriander en sinaasappelschillen. Het is een zoet fruitbier met een citroenzure toets zonder de echte biersmaak te verloochenen.",
             }
         ],
     },
@@ -1566,7 +1591,7 @@ const brouwers = [
         ]
     }, {
         number: 32,
-        name: "Brouwerij Kemker Kultuur",
+        name: "Kemker Kultuur",
         link: "https://www.brauerei-kemker.de",
         location: "ZwarteZaal",
         description:
@@ -1648,7 +1673,7 @@ const brouwers = [
     },
     {
         number: 33,
-        name: "Brouwerij De La Sambre",
+        name: "De La Sambre",
         link: "https://www.brasseriedelasambre.com",
         location: "ZwarteZaal",
         description:
@@ -1661,7 +1686,7 @@ const brouwers = [
                 price: "2",
                 volume: "fles 75cl",
                 description:
-                    "Delicate blend van een saison gefermenteerd met de eigen giststam, één jaar oude lambic en Mont Ventoux kersen.",
+                    "Ceréjhe' is used to designate cherries in Wallonian dialect. A delicate blend of saison (spring barley, Wallonian Winter barley, spelt & wheat) fermented with our own strain, 1 year old lambic and Mont Ventoux cherries. The cherries underwent a 7 months long fermentation at cold temperature and were left intact during the entire process to allow the aromas to slowly diffuse into the beer. The maceration was then back blended with the base saison to reach a balance between the saison, the lambic and the cherries. Not meant to be a cherry bomb, more a delicate note of these beautiful fruits.",
             },
             {
                 name: "Poere du Cwin",
@@ -1670,7 +1695,7 @@ const brouwers = [
                 price: "2",
                 volume: "fles 75cl",
                 description:
-                    "Blend van een saison gefermenteerd met de eigen giststam, één jaar oude lambic en locale kweperen. Eén jaar gefermenteerd in Meursault vaten",
+                    "Poere Di Cwin' is used to designate quince in Wallonian dialect. A blend of saison (spring barley, Wallonian Winter barley, spelt), 1 year old lambic and Wallonian quince, fermented for 1 year in ex-Meursault barrel. Rustic notes from the grains and the saison yeast profile blend with the complexity and tea notes of the quince. The barrel offers a solid wooden backbone and the white wine imparts some minerality and refreshes the overall beer profile.",
             },
             {
                 name: "Socoron barrel-aged",
@@ -1679,13 +1704,13 @@ const brouwers = [
                 price: "2",
                 volume: "fles 75cl",
                 description:
-                    "Gematureerd in Meursault vaten die slecht de dag ervoor geledigd waren. Houten invloed geeft complexe structuur. Bloemige lichtzure scherpte verlicht het bier.",
+                    "Socoron' is used to designate 6 row winter barley in Wallonian dialect and translates as \"Escourgeon\" in French. This traditional saison is brewed with malted and raw local 6 row winter barley which is more challenging to work with and has a much lower yield which explains its rarity in modern beer. However, it creates a deep rustic profile with earthy and bready notes. A traditional farmhouse yeast strain combining high attenuation and a complex fermentation profile that displays white spices, lemon, grapes and grassy herbal notes. This version is then aged in Meursault barrel that has been emptied the day before the beer was transferred in it. We didn't sanitize the barrel so that the micro-flora from the wine can impart its identity to the base beer. The flora imparts a nice tart kick that brightens the overall beer while the wood character from the barrel provides additional structure.",
             }
         ],
     },
     {
         number: 34,
-        name: "Brouwerij Chien Blue",
+        name: "Chien Blue",
         link: "https://www.chienbleu.ch/",
         location: "ZwarteZaal",
         description:

@@ -358,7 +358,7 @@ button {
 
 .rounded-button{
   border-radius: 10px;
-  background-color:black;
+  background-color:transparent;
   color: transparent;
   position: absolute;
   width: 38px;

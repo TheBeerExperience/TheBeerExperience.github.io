@@ -1716,63 +1716,140 @@ const brouwers = [
         ],
     },
 ];
+
 function showInformation(button) {
-    // ASSIGN
     sessionStorage.clear();
+    // ASSIGN BROUWER
     let brouwer = brouwers.find((brouwer) => brouwer.number === button);
 
-    // SHOW DATA
-    document.getElementById("brouwerName").innerHTML = (brouwer.number.toString() + ". " + brouwer.name);
-    document.getElementById("brouwerDescription").innerHTML = brouwer.description;
-    document.getElementById("brouwerLink").innerHTML = brouwer.link.substring(
-        brouwer.link.indexOf(".") + 1
-    );
+    //DELETE BROUWERS ON HTML PAGE
+    document.getElementById("brouwerName").innerHTML = "";
+    document.getElementById("brouwerDescription").innerHTML = "";
+    document.getElementById("brouwerLink").innerHTML = "";
+    document.getElementById("brouwerName-mobile").innerHTML = "";
+    document.getElementById("brouwerDescription-mobile").innerHTML = "";
+    document.getElementById("brouwerLink-mobile").innerHTML = "";
 
-    // SET HREF
-    document.getElementById("brouwerLink").href = brouwer.link;
-
-    // DELETE BEERS ON HTML PAGE
-    const element = document.getElementById("allBeers");
-    element.innerHTML = "";
-
-    // SHOW BEERS
-    for (let i = 0; i < brouwer.beers.length; i++) {
-        // ASSIGN
-        let currentBeer = brouwer.beers[i];
-
-        // SHOW NAME
-        const name = document.createElement("h5");
-        name.classList.add("beerItem");
-        const nameText = document.createTextNode(
-            currentBeer.name + " - " + currentBeer.procent
+    // DESKTOP
+    if (deviceType() === "desktop") {
+        // SHOW DATA
+        document.getElementById("brouwerName").innerHTML = (brouwer.number.toString() + ". " + brouwer.name);
+        document.getElementById("brouwerDescription").innerHTML = brouwer.description;
+        document.getElementById("brouwerLink").innerHTML = brouwer.link.substring(
+            brouwer.link.indexOf(".") + 1
         );
-        name.appendChild(nameText);
 
-        const allBeers = document.getElementById("allBeers");
-        allBeers.appendChild(name);
+        // SET HREF
+        document.getElementById("brouwerLink").href = brouwer.link;
 
-        // SHOW DETAILS
-        const listElement = document.createElement("ul");
-        allBeers.appendChild(listElement);
-        //Description
-        const description = document.createElement("li");
-        description.classList.add("beerListItem");
-        description.innerHTML = currentBeer.description;
-        listElement.appendChild(description);
-        //Volume
-        const volume = document.createElement("li");
-        volume.classList.add("beerListItem");
-        volume.innerHTML = "Beschikbaar uit " + currentBeer.volume;
-        // listElement.appendChild(volume);
-        //Price
-        const price = document.createElement("li");
-        price.classList.add("beerListItem");
-        price.innerHTML = "Prijs: " + currentBeer.price + " bon(nen)";
-        listElement.appendChild(price);
-        //Days
-        const days = document.createElement("li");
-        days.classList.add("beerListItem");
-        days.innerHTML = currentBeer.days;
-        listElement.appendChild(days);
+        // SHOW BEERS
+        for (let i = 0; i < brouwer.beers.length; i++) {
+            // ASSIGN
+            let currentBeer = brouwer.beers[i];
+
+            // SHOW NAME
+            const name = document.createElement("h5");
+            name.classList.add("beerItem");
+            const nameText = document.createTextNode(
+                currentBeer.name + " - " + currentBeer.procent
+            );
+            name.appendChild(nameText);
+
+            const allBeers = document.getElementById("allBeers");
+            allBeers.appendChild(name);
+
+            // SHOW DETAILS
+            const listElement = document.createElement("ul");
+            allBeers.appendChild(listElement);
+            //Description
+            const description = document.createElement("li");
+            description.classList.add("beerListItem");
+            description.innerHTML = currentBeer.description;
+            listElement.appendChild(description);
+            //Volume
+            const volume = document.createElement("li");
+            volume.classList.add("beerListItem");
+            volume.innerHTML = "Beschikbaar uit " + currentBeer.volume;
+            // listElement.appendChild(volume);
+            //Price
+            const price = document.createElement("li");
+            price.classList.add("beerListItem");
+            price.innerHTML = "Prijs: " + currentBeer.price + " bon(nen)";
+            listElement.appendChild(price);
+            //Days
+            const days = document.createElement("li");
+            days.classList.add("beerListItem");
+            days.innerHTML = currentBeer.days;
+            listElement.appendChild(days);
+        }
+        // MOBILE
+    } else {
+        // Get the modal
+        var modal = document.getElementById("BrouwerModel");
+
+        // SHOW BROUWER DATA
+        document.getElementById("brouwerName-mobile").innerHTML = (brouwer.number.toString() + ". " + brouwer.name);
+        document.getElementById("brouwerDescription-mobile").innerHTML = brouwer.description;
+        document.getElementById("brouwerLink-mobile").innerHTML = brouwer.link.substring(
+            brouwer.link.indexOf(".") + 1
+        );
+
+        // SET HREF
+        document.getElementById("brouwerLink-mobile").href = brouwer.link;
+
+        // DELETE BEERS ON MODAL
+        const element = document.getElementById("allBeers-mobile");
+        element.innerHTML = "";
+        // SHOW BEERS
+        for (let i = 0; i < brouwer.beers.length; i++) {
+            // ASSIGN
+            let currentBeer = brouwer.beers[i];
+
+            // SHOW NAME
+            const name = document.createElement("h5");
+            name.classList.add("beerItem-mobile");
+            const nameText = document.createTextNode(
+                currentBeer.name + " - " + currentBeer.procent
+            );
+            name.appendChild(nameText);
+
+            const allBeers = document.getElementById("allBeers-mobile");
+            allBeers.appendChild(name);
+
+            // SHOW DETAILS
+            const listElement = document.createElement("ul");
+            allBeers.appendChild(listElement);
+            //Description
+            const description = document.createElement("li");
+            description.classList.add("beerListItem-mobile");
+            description.innerHTML = currentBeer.description;
+            listElement.appendChild(description);
+            //Volume
+            const volume = document.createElement("li");
+            volume.classList.add("beerListItem-mobile");
+            volume.innerHTML = "Beschikbaar uit " + currentBeer.volume;
+            // listElement.appendChild(volume);
+            //Price
+            const price = document.createElement("li");
+            price.classList.add("beerListItem-mobile");
+            price.innerHTML = "Prijs: " + currentBeer.price + " bon(nen)";
+            listElement.appendChild(price);
+            //Days
+            const days = document.createElement("li");
+            days.classList.add("beerListItem-mobile");
+            days.innerHTML = currentBeer.days;
+            listElement.appendChild(days);
+        }
+        modal.style.display = "block";
     }
 }
+
+const deviceType = () => {
+    const ua = navigator.userAgent;
+    if (/(tablet|ipad|playbook|silk)|(android(?!.*mobi))/i.test(ua)) {
+        return "tablet";
+    } else if (/Mobile|Android|iP(hone|od)|IEMobile|BlackBerry|Kindle|Silk-Accelerated|(hpw|web)OS|Opera M(obi|ini)/.test(ua)) {
+        return "mobile";
+    }
+    return "desktop";
+};

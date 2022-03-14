@@ -141,12 +141,45 @@ const brouwers = [
     },
     {
         number: 3,
-        name: "Abbaye de Rocs",
+        name: "Brasserie de l'Abbaye des Rocs",
         link: "https://nl.abbayedesrocs.com/ons",
         location: "bovendek",
         description:
             "Uit Honnelles, Henegouwen, komt Abbaye de Rocs, een ware klassieker!  In 1979 kregen zij als eerste brouwerij na WO II een vergunning om een microbrouwerij te creëren in België. Het materiaal dat nodig is om bier te produceren bestond niet voor zulke kleine hoeveelheden en de eerste productiemachines werden tot stand gebracht op basis van recuperatiemateriaal.",
-        beers: [],
+        beers: [
+            {
+                name: "Saison",
+                days: "Beschikbaar op zaterdag en zondag",
+                procent: "5,40%",
+                price: "1",
+                volume: "fles 33cl",
+                description: "Zeer frisse ongefilterde saison met hoppige nasmaak . Voor deze saison werd een wilde hopsoort uit eigen tuin gecultiveerd en gereproduceerd."
+            },
+            {
+                name: "Montagnarde",
+                days: "Beschikbaar op zaterdag en zondag",
+                procent: "9,00%",
+                price: "1",
+                volume: "fles 33cl",
+                description: "Sterk amberbier, ongefilterd met kruidige nasmaak."
+            },
+            {
+                name: "Roc's Stout",
+                days: "Beschikbaar op zaterdag en zondag",
+                procent: "7,50%",
+                price: "1",
+                volume: "fles 33cl",
+                description: " Stout belgian style met toetsen van kruiden en koffie."
+            },
+            {
+                name: "Triple Impériale",
+                days: "Beschikbaar op zaterdag en zondag",
+                procent: "9,50%",
+                price: "2",
+                volume: "fles 33cl",
+                description: "Zwaar en sterk donker bier met zeer ronde afdronk met kruidige toetsen vanille en zoethout."
+            }
+        ],
     },
     {
         number: 4,
@@ -216,7 +249,7 @@ const brouwers = [
     },
     {
         number: 5,
-        name: "De Wilde Brouwers",
+        name: "De Wilde Brouwers (zaterdag)",
         link: "https://www.dewildebrouwers.be",
         location: "bovendek",
         description:
@@ -256,18 +289,51 @@ const brouwers = [
             }
         ],
     },
-    // {
-    //     number: 5,
-    //     name: "Remise 56 (zondag)",
-    //     link: "",
-    //     location: "bovendek",
-    //     description:
-    //         "",
-    //     beers: [],
-    // },
+    {
+        number: 5,
+        name: "Vicus (zondag)",
+        link: "www.vicusbier.be",
+        location: "bovendek",
+        description:
+            "In het Kempisch dorpje Ham waagde brouwer Rudy zich enkele jaren geleden aan het uittesten van een aantal recepten in een oude wasmachine. Al snel verwende hij ons rijke bierland met een nieuwe creatie ambachtelijk gebrouwen bier. Vrienden proefden dit artisanale product en beslisten om deze hobby uit te bouwen tot een heus project. Ondertussen sprongen cafés, restaurants en drankcenters op de kar waardoor het nieuwe bier, genaamd Vicus, op menige (bier)kaart belandde. De wasmachine werd intussen ingeruild voor echte brouwketels waardoor het Vicus-verhaal zich nog steeds verder blijft ontwikkelen.",
+        beers: [
+            {
+                name: "Vicus Tripel",
+                days: "Beschikbaar op zondag",
+                procent: "8,00%",
+                price: "1",
+                volume: "fles 33cl",
+                description: "Amberblond, zacht bier met fijne bitterheid. Fruitig aroma en pittige moutsmaak. Volwaardig degustatiebier dat voor een breed publiek in de smaak valt.",
+            },
+            {
+                name: "Vicus Scura",
+                days: "Beschikbaar op zondag",
+                procent: "7,00%",
+                price: "1",
+                volume: "fles 33cl",
+                description: "Dit bier haalt zijn karakter uit de gebrande mouten. Deze zorgen voor fijne koffie en chocolade toetsen. Karaktervol bier met een lange afdronk.",
+            },
+            {
+                name: "Vicus Oro",
+                days: "Beschikbaar op zondag",
+                procent: "5,50%",
+                price: "1",
+                volume: "fles 33cl",
+                description: "Categorie van de \"speciale belge\" . Amber bier en dorstlesser die zich vlot laat drinken.",
+            },
+            {
+                name: "Vicus Inverno",
+                days: "Beschikbaar op zondag",
+                procent: "11,00%",
+                price: "1",
+                volume: "fles 33cl",
+                description: "Een donker 'degustatiebier', zeer rijk aan smaken door de juiste mix van 6 moutsoorten, kruiden en enkele fijne hopsoorten.",
+            }
+        ],
+    },
     {
         number: 6,
-        name: "‘t Aerts Paradijs",
+        name: "Aerts Paradijs",
         link: "https://www.hetaertsparadijs.be/",
         location: "bovendek",
         description:
@@ -302,7 +368,7 @@ const brouwers = [
     },
     {
         number: 7,
-        name: "Bierfirma North Antwerp Brewery",
+        name: "North Antwerp Brewery",
         link: "https://www.northantwerpbrewery.com/",
         location: "bovendek",
         description:
@@ -560,7 +626,7 @@ const brouwers = [
     },
     {
         number: 12,
-        name: "Brouwerij D'oude Maalderij",
+        name: "d'Oude Maalderij",
         link: "",
         description: "D'oude Maalderij werd gesticht in 2011 te Koolskamp. Brouwer Jef brouwt met de filosofie dat hij steeds de roerstok zelf ter hand neemt om zo oprecht en eerlijke de aloude traditie en meesterlijke kunst van brouwen te boefenen en dit enkel met hoogstaande ingrediënten. Meermaals verkozen als beste brewpub van België!",
         beers: [
@@ -633,7 +699,7 @@ const brouwers = [
     },
     {
         number: 13,
-        name: "Brouwerij De Ranke ",
+        name: "De Ranke ",
         link: "http://www.deranke.be/nl/bieren",
         location: "compressorenhal",
         description:
@@ -672,7 +738,7 @@ const brouwers = [
     },
     {
         number: 14,
-        name: "Brouwerij De Bock",
+        name: "De Bock",
         link: "https://www.brouwerijdebock.be/",
         location: "compressorenhal",
         description:
@@ -707,7 +773,7 @@ const brouwers = [
 
     {
         number: 15,
-        name: "Brouwerij DOK Brewing",
+        name: "DOK Brewing",
         link: "",
         location: "compressorenhal",
         description:
@@ -808,7 +874,7 @@ const brouwers = [
     },
     {
         number: 17,
-        name: "Brouwerij Dileweyns",
+        name: "Dilewyns / Vicaris",
         link: "https://www.vicaris.be",
         location: "compressorenhal",
         description:
@@ -854,7 +920,7 @@ const brouwers = [
     },
     {
         number: 18,
-        name: "Brouwerij Gruut",
+        name: "Stadsbrouwerij Gruut",
         link: "https://www.gruut.be",
         location: "compressorenhal",
         description:
@@ -959,18 +1025,74 @@ const brouwers = [
             }
         ],
         location: "machines",
-    }, {
+    },
+    {
         number: 20,
-        name: "Bierfirma BOM Brewery",
-        link: "",
+        name: "BRAUW",
+        link: "https://www.brauw.be",
         location: "machines",
         description:
-            "Belgian Original Maltbakery & Brewery uit Roeselare, vooral bekend onder de naam Triporteur, maken hun eigen bierrecepten op basis van nieuwe mouten die zij speciaal voor het bier ontwerpen. Samen met de andere ingrediënten vormen de mouten een ‘BOMpakket’ waarmee een zigeunerbrouwerij de bieren brouwt.",
-        beers: [],
+            "Wauw, rauw, Brauw! De Genkse stadsbrouwerij Brauw brouwt niet enkel hun eigen bieren, ze geven ook andere brouwers de kans om te brouwen in hun gezellige brewpub. BRAUW draait om passie voor het brouwen en voor het bier.",
+        beers: [
+            {
+                name: "Jan Withops",
+                days: "Beschikbaar op zaterdag en zondag",
+                procent: "6,50%",
+                price: "1,5",
+                volume: "tap",
+                description:
+                    "White IPA - Jan Withops is een White IPA. Dit bier combineert het beste van 2 stijlen. De moutstort en de kruiden zijn typisch voor een belgisch witbier. De hopgift is geïnspireerd op IPA’s, maar dan wel Europees gekleurd.",
+            },
+            {
+                name: "Armout Macleod",
+                days: "Beschikbaar op zondag",
+                procent: "8,40%",
+                price: "1",
+                volume: "fles 33cl",
+                description:
+                    "Scotch Wee Heavy - Armout Macleod is een strong scotch ale (Wee Heavy). Bij dit bier komen de aroma’s grotendeels van de mouten, die verantwoordelijk zijn voor de carameltoetsen aanwezig in het bier.",
+            },
+            {
+                name: "Brauwsel#007",
+                days: "Beschikbaar op zondag",
+                procent: "5,70%",
+                price: "1",
+                volume: "fles 33cl",
+                description:
+                    "Gose - Brauwsel #007 is het 7de experiment van BRAUW. Bij dit bier hebben we de gist Philly Sour getest. De gist geeft fruitige aroma's in combinatie met een melkzuur. Zoals de stijl voorschrijft is er ook zout toegevoegd.",
+            },
+            {
+                name: "Skogafoss",
+                days: "Beschikbaar op zaterdag",
+                procent: "10,70%",
+                price: "1",
+                volume: "fles 33cl",
+                description:
+                    "Belgian quadruppel - Puffin Brewery; Skógafoss is one of the most powerful and largest waterfalls in Iceland. To give this beer some extra power, it has been infused with Brennivín, the national drink of Iceland. A distilled liquor made from fermented potato pulp, flavored with caraway seeds and angelica.",
+            },
+            {
+                name: "Brauwsel#008",
+                days: "Beschikbaar op zondag",
+                procent: "3,50%",
+                price: "1",
+                volume: "fles 33cl",
+                description:
+                    "Eenkoorn-bier - Brauwsel#008 is het 8ste experiment van BRAUW. Bij dit bier hebben we het alternatieve graan Eenkoorn uitgeprobeerd. Het bier is gemaakt met  40% eenkoorn. ",
+            },
+            {
+                name: "Ferme IPA",
+                days: "Beschikbaar op zondag",
+                procent: "6,50%",
+                price: "1,5",
+                volume: "fles 33cl",
+                description:
+                    "IPA Amarillo Amber - Een red IPA om U tegen te zeggen, een licht zoete aanzet van caramel dat meteen weggespoeld wordt door een droge hopbitterheid die goed gepaard gaat met de tropische Citrus aroma’s.",
+            },
+        ],
     },
     {
         number: 21,
-        name: "Brouwerij Old Street Brewery",
+        name: "Old Street Brewery",
         link: "https://www.oldstreetbrewery.com",
         location: "balzaal",
         description:
@@ -1014,7 +1136,7 @@ const brouwers = [
     },
     {
         number: 22,
-        name: "Bierfirma K.E.G.S.",
+        name: "K.E.G.S.",
         link: "https://www.kegsbrouwerij.nl",
         location: "balzaal",
         description:
@@ -1133,65 +1255,56 @@ const brouwers = [
     },
     {
         number: 24,
-        name: "BRAUW",
-        link: "https://www.brauw.be",
+        name: "Triporteur / BOM",
+        link: "https://triporteurbeer.com",
         location: "balzaal",
         description:
-            "Wauw, rauw, Brauw! De Genkse stadsbrouwerij Brauw brouwt niet enkel hun eigen bieren, ze geven ook andere brouwers de kans om te brouwen in hun gezellige brewpub. BRAUW draait om passie voor het brouwen en voor het bier.",
+            "Belgian Original Maltbakery & Brewery uit Roeselare, vooral bekend onder de naam Triporteur, maken hun eigen bierrecepten op basis van nieuwe mouten die zij speciaal voor het bier ontwerpen. Samen met de andere ingrediënten vormen de mouten een ‘BOMpakket’ waarmee een zigeunerbrouwerij de bieren brouwt.",
         beers: [
             {
-                name: "Jan Withops",
+                name: "Triporteur from Heaven",
                 days: "Beschikbaar op zaterdag en zondag",
-                procent: "6,50%",
-                price: "1,5",
+                procent: "6,20%",
+                price: "1",
                 volume: "tap",
                 description:
-                    "White IPA - Jan Withops is een White IPA. Dit bier combineert het beste van 2 stijlen. De moutstort en de kruiden zijn typisch voor een belgisch witbier. De hopgift is geïnspireerd op IPA’s, maar dan wel Europees gekleurd.",
+                    "Moderne versie van een traditionele Belgische hoppige ale, gebrouwen met huisgebakken mout.  Duidelijke hoparoma van de Europese aromatische hopsoorten East Kent Golding en Styrian Golding en de Amerikaanse Cascade hop. ",
             },
             {
-                name: "Armout Macleod",
-                days: "Beschikbaar op zondag",
-                procent: "8,40%",
+                name: "Triporteur Full Moon",
+                days: "Beschikbaar op zaterdag en zondag",
+                procent: "10,20%",
+                price: "1",
+                volume: "tap",
+                description:
+                    "Parodie op de klassieke \"12\" bieren. Gebrouwen met vers geroosterde BOM mout en gerijpt op Belgische eik die we zelf verzagen met een kettingzaag.",
+            },
+            {
+                name: "Triporteur Bling Bling Ipa",
+                days: "Beschikbaar op zaterdag en zondag",
+                procent: "8,80%",
                 price: "1",
                 volume: "fles 33cl",
                 description:
-                    "Scotch Wee Heavy - Armout Macleod is een strong scotch ale (Wee Heavy). Bij dit bier komen de aroma’s grotendeels van de mouten, die verantwoordelijk zijn voor de carameltoetsen aanwezig in het bier.",
+                    "Decadente golden ale gebrouwen met 24-karaat goudvlokken. Over-the-top gepimpt met pakken hop, maar verbazend gebalanceerd en zacht. Stoer van buiten, maar super zacht van binnen.",
             },
             {
-                name: "Brauwsel#007",
-                days: "Beschikbaar op zondag",
-                procent: "5,70%",
+                name: "Triporteur Wild & Funky",
+                days: "Beschikbaar op zaterdag en zondag",
+                procent: "0,00%",
                 price: "1",
                 volume: "fles 33cl",
                 description:
-                    "Gose - Brauwsel #007 is het 7de experiment van BRAUW. Bij dit bier hebben we de gist Philly Sour getest. De gist geeft fruitige aroma's in combinatie met een melkzuur. Zoals de stijl voorschrijft is er ook zout toegevoegd.",
+                    "Dit is een zuur bier. Het is de perfect dorstlesser op een warme zomerdag. Gebrouwen met appel- en perenstroop.",
             },
             {
-                name: "Skogafoss",
-                days: "Beschikbaar op zaterdag",
-                procent: "10,70%",
+                name: "Vuillaert",
+                days: "Beschikbaar op zaterdag en zondag",
+                procent: "0,00%",
                 price: "1",
                 volume: "fles 33cl",
                 description:
-                    "Belgian quadruppel - Puffin Brewery; Skógafoss is one of the most powerful and largest waterfalls in Iceland. To give this beer some extra power, it has been infused with Brennivín, the national drink of Iceland. A distilled liquor made from fermented potato pulp, flavored with caraway seeds and angelica.",
-            },
-            {
-                name: "Brauwsel#008",
-                days: "Beschikbaar op zondag",
-                procent: "3,50%",
-                price: "1",
-                volume: "fles 33cl",
-                description:
-                    "Eenkoorn-bier - Brauwsel#008 is het 8ste experiment van BRAUW. Bij dit bier hebben we het alternatieve graan Eenkoorn uitgeprobeerd. Het bier is gemaakt met  40% eenkoorn. ",
-            },
-            {
-                name: "Ferme IPA",
-                days: "Beschikbaar op zondag",
-                procent: "6,50%",
-                price: "1,5",
-                volume: "fles 33cl",
-                description:
-                    "IPA Amarillo Amber - Een red IPA om U tegen te zeggen, een licht zoete aanzet van caramel dat meteen weggespoeld wordt door een droge hopbitterheid die goed gepaard gaat met de tropische Citrus aroma’s.",
+                    "Verfrissend Belgisch blondje dat proeft als Venetië. Gebrouwen met pasta, italiaanse kruiden en appelsienen.",
             },
         ],
     },
@@ -1261,7 +1374,7 @@ const brouwers = [
     },
     {
         number: 26,
-        name: "Bierfirma Swiekes",
+        name: "Swiekes",
         link: "https://www.swiekes.be",
         location: "balzaal",
         description:
@@ -1289,7 +1402,7 @@ const brouwers = [
     },
     {
         number: 27,
-        name: "Brouwerij Het Anker",
+        name: "Het Anker",
         link: "",
         location: "balzaal",
         description:
@@ -1332,7 +1445,7 @@ const brouwers = [
     },
     {
         number: 28,
-        name: "Brouwerij Lupulus",
+        name: "Lupulus",
         link: "https://www.lupulus.be",
         location: "balzaal",
         description:
@@ -1408,7 +1521,7 @@ const brouwers = [
     },
     {
         number: 29,
-        name: "Brouwerij De Keukenbrouwers",
+        name: "De Keukenbrouwers",
         link: "https://www.dekeukenbrouwers.be",
         location: "balzaal",
         description:
@@ -1818,7 +1931,7 @@ const brouwers = [
     },
     {
         number: 36,
-        name: "Beer4nature",
+        name: "Beer4Nature",
         link: "https://www.beer4nature.be",
         location: "terras",
         description:

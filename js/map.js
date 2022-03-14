@@ -1932,7 +1932,8 @@ function showInformation(button) {
         // MOBILE
     } else {
         // Get the modal
-        var modal = document.getElementById("BrouwerModel");
+        var modal = document.getElementById("BrouwerModal");
+        modal.classList.add("brewerModal");
 
         // SHOW BROUWER DATA
         document.getElementById("brouwerName-mobile").innerHTML = (brouwer.number.toString() + ". " + brouwer.name);

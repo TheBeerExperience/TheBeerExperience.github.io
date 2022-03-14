@@ -95,14 +95,21 @@
                                     <p id="brouwerDescription"></p>
                                     <div id="allBeers"></div>
                                 </div>
-                                <div id="BrouwerModel" class="modal" onclick={style.display="none" }>
-                                    <!-- Modal content -->
-                                    <div class="modal-content">
-                                        <span class="close">&times;</span>
-                                        <h3 id="brouwerName-mobile"></h3>
-                                        <a id="brouwerLink-mobile" href="#" target="_blank"></a>
-                                        <p id="brouwerDescription-mobile"></p>
-                                        <div id="allBeers-mobile"></div>
+                                <div id="BrouwerModal" class="modal" tabindex="-1" role="dialog">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-body">
+                                                <button type="button" class="close clickable"
+                                                    onclick="hideModal()"
+                                                    style="float: right;" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                                <h3 id="brouwerName-mobile"></h3>
+                                                <a id="brouwerLink-mobile" href="#" target="_blank"></a>
+                                                <p id="brouwerDescription-mobile"></p>
+                                                <div id="allBeers-mobile"></div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>

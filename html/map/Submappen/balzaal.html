@@ -117,14 +117,15 @@
                                         <p id="brouwerDescription"></p>
                                         <div id="allBeers"></div>
                                     </div>
-                           
+
                                     <!-- new modal -->
-                                    <div id="BrouwerModal" class="modal" tabindex="-1" role="dialog" onclick={style.display="none"}>
+                                    <div id="BrouwerModal" class="modal" tabindex="-1" role="dialog">
                                         <div class="modal-dialog" role="document">
                                             <div class="modal-content">
                                                 <div class="modal-body">
-                                                    <button type="button" class="close clickable" data-dismiss="modal" style="float: right;"
-                                                        aria-label="Close">
+                                                    <button type="button" class="close clickable"
+                                                        onclick="hideModal()"
+                                                        style="float: right;" aria-label="Close">
                                                         <span aria-hidden="true">&times;</span>
                                                     </button>
                                                     <h3 id="brouwerName-mobile"></h3>

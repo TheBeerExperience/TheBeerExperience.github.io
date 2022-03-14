@@ -2001,3 +2001,8 @@ const deviceType = () => {
     }
     return "desktop";
 };
+
+function hideModal() {
+    var modal = document.getElementById("BrouwerModal");
+    modal.style.display = "none";
+}

@@ -503,7 +503,7 @@ const brouwers = [
     {
         number: 10,
         name: "De Leite",
-        link: "",
+        link: "www.deleite.be/nl/",
         location: "compressorenhal",
         description:
             "De Leite in Ruddervoorde, is het levenswerk van Luc Vermeersch. Hij richtte de brouwerij op in 2008 en bouwde z’n zaak stelselmatig uit van een hobby tot een familiale kmo.",
@@ -627,7 +627,7 @@ const brouwers = [
     {
         number: 12,
         name: "d'Oude Maalderij",
-        link: "",
+        link: "www.doudemaalderij.com",
         description: "D'oude Maalderij werd gesticht in 2011 te Koolskamp. Brouwer Jef brouwt met de filosofie dat hij steeds de roerstok zelf ter hand neemt om zo oprecht en eerlijke de aloude traditie en meesterlijke kunst van brouwen te boefenen en dit enkel met hoogstaande ingrediënten. Meermaals verkozen als beste brewpub van België!",
         beers: [
             {
@@ -738,7 +738,7 @@ const brouwers = [
     },
     {
         number: 14,
-        name: "De Bock",
+        name: "Brouwerij De Bock",
         link: "https://www.brouwerijdebock.be/",
         location: "compressorenhal",
         description:
@@ -774,7 +774,7 @@ const brouwers = [
     {
         number: 15,
         name: "DOK Brewing",
-        link: "",
+        link: "www.dokbrewingcompany.be",
         location: "compressorenhal",
         description:
             "In Gent, in een prachtige hal op Dok Noord, vind je deze geweldige brewpub met 30 taps. De inspiratie voor hun brewpub-concept vonden ze in het buitenland. Ze produceren niet de klassieke stijlen maar leren ons alle andere stijlen en smaken beter kennen.",
@@ -967,7 +967,7 @@ const brouwers = [
     {
         number: 19,
         name: "Poppels",
-        link: "",
+        link: "www.poppels.se",
         description: "Ja, ook in Zweden kunnen ze bier brouwen. De Poppels Brouwerij ligt in Jonsered, een buitenwijk van Göteborg in Zweden, één van Europa’s hotspots op biergebied. Ze brouwen hun bier volledig biologisch. Wij houden van Poppels voor hun lekkere hoppige bieren met duidelijke signatuur",
         beers: [
             {
@@ -1038,14 +1038,14 @@ const brouwers = [
                 name: "Jan Withops",
                 days: "Beschikbaar op zaterdag en zondag",
                 procent: "6,50%",
-                price: "1,5",
+                price: "1",
                 volume: "tap",
                 description:
                     "White IPA - Jan Withops is een White IPA. Dit bier combineert het beste van 2 stijlen. De moutstort en de kruiden zijn typisch voor een belgisch witbier. De hopgift is geïnspireerd op IPA’s, maar dan wel Europees gekleurd.",
             },
             {
                 name: "Armout Macleod",
-                days: "Beschikbaar op zondag",
+                days: "Beschikbaar op zaterdag en zondag",
                 procent: "8,40%",
                 price: "1",
                 volume: "fles 33cl",
@@ -1054,7 +1054,7 @@ const brouwers = [
             },
             {
                 name: "Brauwsel#007",
-                days: "Beschikbaar op zondag",
+                days: "Beschikbaar op zaterdag",
                 procent: "5,70%",
                 price: "1",
                 volume: "fles 33cl",
@@ -1083,7 +1083,7 @@ const brouwers = [
                 name: "Ferme IPA",
                 days: "Beschikbaar op zondag",
                 procent: "6,50%",
-                price: "1,5",
+                price: "1",
                 volume: "fles 33cl",
                 description:
                     "IPA Amarillo Amber - Een red IPA om U tegen te zeggen, een licht zoete aanzet van caramel dat meteen weggespoeld wordt door een droge hopbitterheid die goed gepaard gaat met de tropische Citrus aroma’s.",
@@ -1099,38 +1099,37 @@ const brouwers = [
             "Old Street Brewery maken geweldige ambachtelijke bieren in Amerikaanse stijl in East-Londen. Old Street Brewery is 'a band of drunken misfits' looking to bring you good vibes and great beer!!!",
         beers: [
             {
-                name: "Dance Rave Dance",
+                name: "Hypotenjuice",
                 days: "Beschikbaar op zaterdag en zondag",
-                procent: "4,20%",
+                procent: "8,00%",
                 price: "1",
-                volume: "vat",
-                description: "Session IPA w. Citra, Nelson, Motueka",
+                volume: "vat 30 liter",
+                description: "Hypotenjuice is a dank and hazy juice monster, fully hop charged with generous reserves of Citra and Mosaic, followed up with Sabro hops during fermentation for a massive tropical hit. The mash is 40% oats and wheat for that thick and creamy mouthfeel we all love. Rounded out with a subtle bitterness and intense ripe tropical fruit flavours.",
             },
             {
-                name: "Double Trouble ",
+                name: "24 Hour Pumpkin People",
                 days: "Beschikbaar op zaterdag en zondag",
-                procent: "8,50%",
+                procent: "10,00%",
                 price: "1",
-                volume: "vat",
-                description: "Double IPA hopped with Citra, Galaxy, Mosaic, and Nelson",
+                volume: "vat 20 liter",
+                description: "Imperial Stout - 24 Hour Pumpkin People is an idea we had early on in the pandemic to turn our annual pumpkin beer into a 24 hour boiled spiced imperial stout. Utilising all the free time we had, we wrote a monster recipe consisting of 500kg of honey roasted pumpkin, two mash-ins of 11 Malt types, freshly toasted spices, root ginger and Madagascan vanilla. This culminated into the thickest, darkest winter warmer you could wrap a glove around! This current batch (2021) we have doubled down on all the attributes we liked of the previous year and we have dialled in this to be our best attempt to date. The beauty of this beer relies upon the quality of the ingredients, having used incredible organic Crown Prince pumpkins from Bedlam Farms Organic and beautiful English malt from Crisp Maltings.",
             },
             {
-                name: "Blueberries Effect",
+                name: "Lucky Egg",
                 days: "Beschikbaar op zaterdag en zondag",
-                procent: "6,00%",
-                price: "1,5",
-                volume: "fles",
-                description: "Barrel aged sour with blueberries and blackberries",
+                procent: "6,50%",
+                price: "1",
+                volume: "vat 30 liter",
+                description: "Lucky Egg is our take on a winter sour; think cool runnings! We created a sour base beer loaded with full-flavoured malts and fermented it with a souring agent alongside our house pale ale yeast, adding body and fruit esters. After conditioning on toasted coconut, we blended in over 120kg of mango and passionfruit puree, creating what could only be recognised as the perfect tropical juice to keep you healthy and happy over the winter months! Kiss the Lucky Egg!",
             },
             {
-                name: "Cosmic Rainbow",
+                name: "Infinite Bliss",
                 days: "Beschikbaar op zaterdag en zondag",
-                procent: "7,20%",
+                procent: "4,80%",
                 price: "1",
-                volume: "fles",
+                volume: "vat 20 liter",
                 description:
-                    "Uit Moen komt Brouwerij Alvinne. Alvinne is in Europa een pionier op het vlak van houtrijping en met hun eigen ontwikkelde gist brouwen ze (zure) bieren van wereldklasse",
-                beers: [],
+                    "A light, refreshing, and smashable pale ale. Our signature brew, Infinite Bliss is the ultimate crowd-pleaser. Hopped with Citra, Mosaic, and Centennial, it goes down smooth with craft aficionados and newcomers!",
             },
         ]
     },
@@ -1244,7 +1243,7 @@ const brouwers = [
             },
             {
                 name: "Force Majeure Tripel Hop",
-                days: "",
+                days: "Beschikbaar op zaterdag en zondag",
                 procent: "0,40%",
                 price: "1",
                 volume: "fles 33cl",
@@ -1256,7 +1255,7 @@ const brouwers = [
     {
         number: 24,
         name: "Triporteur / BOM",
-        link: "https://triporteurbeer.com",
+        link: "www.triporteurbeer.com",
         location: "balzaal",
         description:
             "Belgian Original Maltbakery & Brewery uit Roeselare, vooral bekend onder de naam Triporteur, maken hun eigen bierrecepten op basis van nieuwe mouten die zij speciaal voor het bier ontwerpen. Samen met de andere ingrediënten vormen de mouten een ‘BOMpakket’ waarmee een zigeunerbrouwerij de bieren brouwt.",
@@ -1403,7 +1402,7 @@ const brouwers = [
     {
         number: 27,
         name: "Het Anker",
-        link: "",
+        link: "www.hetanker.be/",
         location: "balzaal",
         description:
             "De Mechelse stadsbrouwerij Het Anker geniet wereldwijd faam met het gerenommeerde Gouden Carolusbier. Ze stamt uit 1471 en is een van de oudste brouwerijen van België.",
@@ -1600,7 +1599,7 @@ const brouwers = [
         name: "Ter Dolen",
         link: "https://www.terdolen.be/bieren",
         location: "balzaal",
-        description: "...",
+        description: "Deze brouwerĳ uit Helchteren is geïnstalleerd in de voorkamers van een middeleeuws kasteel en behoort ondertussen tot de klassiekers van Limburg. De brouwerĳ bevindt zich kortbij, op slechts drie (lange) straten van TBE en is een trekpleister voor fietsers en wandelaars in deze regio.",
         beers: [
             {
                 name: "Ter Dolen Blond",
@@ -1645,7 +1644,7 @@ const brouwers = [
         name: "Butchers Tears",
         link: "https://www.butchers-tears.com/",
         location: "ZwarteZaal",
-        description: "...",
+        description: "Uit het mooie Amsterdam komt Butcher's Tears. Zij brouwen moderne bieren van open gisting met een voorliefde voor het verfijnen van de klassieke technieken en houden de rijke Europese biercultuur in ere!",
         beers: [
             {
                 name: "So What",
@@ -1912,7 +1911,7 @@ const brouwers = [
                     "Organische perzikken en nectarines (300 gr/l) zijn toegevoegd aan een bier dat 16 maanden op vat rijpte. Gebotteld in aug. 2020. Verrassend subtiel, aromatische kwaliteiten van beide fruiten, net als de lichte zuurheid van het bier, pure harmonie.",
             },
             {
-                name: "Ongedorst",
+                name: "TBD Ongedorst",
                 days: "Beschikbaar op zaterdag en zondag",
                 procent: "6,00%",
                 price: "2",

@@ -68,7 +68,7 @@
                                 <div class="col-sm">
                                     <map name="workmap">
 
-                                        <img id="legende" src="../../../assets/Legende.png" alt = "Legende">
+                                        <img id="legende" src="../../../assets/Legende.png" alt="Legende">
                                         <!-- Naar onderdek -->
                                         <area alt="onderdek" coords="530,140,20" href="onderdek.html" shape="circle">
                                         <area alt="onderdek" coords="560,140,20" href="onderdek.html" shape="circle">
@@ -111,17 +111,25 @@
                                         <img id="map" usemap="#workmap" src="../../../assets/terras.png" alt="Map">
                                     </map>
                                 </div>
-                                <div id="BrouwerModal" class="modal" tabindex="-1" role="dialog">
-                                    <div class="modal-dialog" role="document">
-                                        <div class="modal-content">
-                                            <div class="modal-body">
-                                                <button type="button" class="close clickable btn-close"
-                                                    onclick="hideModal()" style="float: right;" aria-label="Close">
-                                                </button>
-                                                <h3 id="brouwerName-mobile"></h3>
-                                                <a id="brouwerLink-mobile" href="#" target="_blank"></a>
-                                                <p id="brouwerDescription-mobile"></p>
-                                                <div id="allBeers-mobile"></div>
+                                <div class="col-sm">
+                                    <div id="text-place">
+                                        <h3 id="brouwerName"></h3>
+                                        <a id="brouwerLink" href="#" target="_blank"></a>
+                                        <p id="brouwerDescription"></p>
+                                        <div id="allBeers"></div>
+                                    </div>
+                                    <div id="BrouwerModal" class="modal" tabindex="-1" role="dialog">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-body">
+                                                    <button type="button" class="close clickable btn-close"
+                                                        onclick="hideModal()" style="float: right;" aria-label="Close">
+                                                    </button>
+                                                    <h3 id="brouwerName-mobile"></h3>
+                                                    <a id="brouwerLink-mobile" href="#" target="_blank"></a>
+                                                    <p id="brouwerDescription-mobile"></p>
+                                                    <div id="allBeers-mobile"></div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -132,7 +140,6 @@
                 </div>
             </div>
         </div>
-    </div>
     </div>
     <!-- Footer -->
     <footer class="page-footer font-small pt-4 footer-beer mask-custom" style="display: block;">

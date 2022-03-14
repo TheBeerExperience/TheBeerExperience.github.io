@@ -48,3 +48,11 @@
     margin-left: 160px;
     margin-top: 150px;
   }
+
+  #legende{ 
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 610px;
+    width: 288.45px;
+    height: 164.52px;
+  }

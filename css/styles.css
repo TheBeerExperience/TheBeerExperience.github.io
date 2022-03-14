@@ -95,6 +95,10 @@ body {
   color: #351e1b;
 }
 
+.clickable {
+  cursor: pointer;
+}
+
 .card-maps {
   margin: 3rem !important;
 }

@@ -363,7 +363,6 @@ button {
 }
 
 .rounded-button{
-  border-radius: 10px;
   background-color:transparent;
   color: transparent;
   position: absolute;

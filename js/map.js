@@ -1290,7 +1290,7 @@ const brouwers = [
             {
                 name: "Triporteur Wild & Funky",
                 days: "Beschikbaar op zaterdag en zondag",
-                procent: "0,00%",
+                procent: "5,40%",
                 price: "1",
                 volume: "fles 33cl",
                 description:
@@ -1299,7 +1299,7 @@ const brouwers = [
             {
                 name: "Vuillaert",
                 days: "Beschikbaar op zaterdag en zondag",
-                procent: "0,00%",
+                procent: "7,70%",
                 price: "1",
                 volume: "fles 33cl",
                 description:
@@ -1648,7 +1648,7 @@ const brouwers = [
         beers: [
             {
                 name: "So What",
-                days: "",
+                days: "Beschikbaar op zaterdag en zondag",
                 procent: "7,00%",
                 price: "1,5",
                 volume: "vat van 20 liter",
@@ -1662,7 +1662,7 @@ const brouwers = [
                 description: "1877 Reid Triple Stout"
             }, {
                 name: "Headroom",
-                days: "",
+                days: "Beschikbaar op zaterdag en zondag",
                 procent: "7,50%",
                 price: "1,5",
                 volume: "vat van 20 liter",
@@ -1678,7 +1678,7 @@ const brouwers = [
             },
             {
                 name: "Nobody's Darling",
-                days: "",
+                days: "Beschikbaar op zaterdag en zondag",
                 procent: "7,00%",
                 price: "1,5",
                 volume: "vat van 20 liter",
@@ -1686,7 +1686,7 @@ const brouwers = [
             },
             {
                 name: "Aruspex",
-                days: "",
+                days: "Beschikbaar op zaterdag en zondag",
                 procent: "8,00%",
                 price: "1,5",
                 volume: "vat van 20 liter",
@@ -1694,7 +1694,7 @@ const brouwers = [
             },
             {
                 name: "De Fluiter",
-                days: "",
+                days: "Beschikbaar op zaterdag en zondag",
                 procent: "5,10%",
                 price: "1",
                 volume: "fles 33cl",
@@ -1867,7 +1867,7 @@ const brouwers = [
             {
                 name: "Pêche Jaune 2021",
                 days: "Beschikbaar op zaterdag en zondag",
-                procent: "",
+                procent: "6,70%",
                 price: "2",
                 volume: "fles 75cl",
                 description:

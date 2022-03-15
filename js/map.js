@@ -290,48 +290,6 @@ const brouwers = [
         ],
     },
     {
-        number: 5,
-        name: "Vicus (zondag)",
-        link: "www.vicusbier.be",
-        location: "bovendek",
-        description:
-            "In het Kempisch dorpje Ham waagde brouwer Rudy zich enkele jaren geleden aan het uittesten van een aantal recepten in een oude wasmachine. Al snel verwende hij ons rijke bierland met een nieuwe creatie ambachtelijk gebrouwen bier. Vrienden proefden dit artisanale product en beslisten om deze hobby uit te bouwen tot een heus project. Ondertussen sprongen cafés, restaurants en drankcenters op de kar waardoor het nieuwe bier, genaamd Vicus, op menige (bier)kaart belandde. De wasmachine werd intussen ingeruild voor echte brouwketels waardoor het Vicus-verhaal zich nog steeds verder blijft ontwikkelen.",
-        beers: [
-            {
-                name: "Vicus Tripel",
-                days: "Beschikbaar op zondag",
-                procent: "8,00%",
-                price: "1",
-                volume: "fles 33cl",
-                description: "Amberblond, zacht bier met fijne bitterheid. Fruitig aroma en pittige moutsmaak. Volwaardig degustatiebier dat voor een breed publiek in de smaak valt.",
-            },
-            {
-                name: "Vicus Scura",
-                days: "Beschikbaar op zondag",
-                procent: "7,00%",
-                price: "1",
-                volume: "fles 33cl",
-                description: "Dit bier haalt zijn karakter uit de gebrande mouten. Deze zorgen voor fijne koffie en chocolade toetsen. Karaktervol bier met een lange afdronk.",
-            },
-            {
-                name: "Vicus Oro",
-                days: "Beschikbaar op zondag",
-                procent: "5,50%",
-                price: "1",
-                volume: "fles 33cl",
-                description: "Categorie van de \"speciale belge\" . Amber bier en dorstlesser die zich vlot laat drinken.",
-            },
-            {
-                name: "Vicus Inverno",
-                days: "Beschikbaar op zondag",
-                procent: "11,00%",
-                price: "1",
-                volume: "fles 33cl",
-                description: "Een donker 'degustatiebier', zeer rijk aan smaken door de juiste mix van 6 moutsoorten, kruiden en enkele fijne hopsoorten.",
-            }
-        ],
-    },
-    {
         number: 6,
         name: "Aerts Paradijs",
         link: "https://www.hetaertsparadijs.be/",
@@ -1975,19 +1933,79 @@ const brouwers = [
         ],
     },
 ];
+const extraBrewer = {
+    number: 5,
+    name: "Vicus (zondag)",
+    link: "www.vicusbier.be",
+    location: "bovendek",
+    description:
+        "In het Kempisch dorpje Ham waagde brouwer Rudy zich enkele jaren geleden aan het uittesten van een aantal recepten in een oude wasmachine. Al snel verwende hij ons rijke bierland met een nieuwe creatie ambachtelijk gebrouwen bier. Vrienden proefden dit artisanale product en beslisten om deze hobby uit te bouwen tot een heus project. Ondertussen sprongen cafés, restaurants en drankcenters op de kar waardoor het nieuwe bier, genaamd Vicus, op menige (bier)kaart belandde. De wasmachine werd intussen ingeruild voor echte brouwketels waardoor het Vicus-verhaal zich nog steeds verder blijft ontwikkelen.",
+    beers: [
+        {
+            name: "Vicus Tripel",
+            days: "Beschikbaar op zondag",
+            procent: "8,00%",
+            price: "1",
+            volume: "fles 33cl",
+            description: "Amberblond, zacht bier met fijne bitterheid. Fruitig aroma en pittige moutsmaak. Volwaardig degustatiebier dat voor een breed publiek in de smaak valt.",
+        },
+        {
+            name: "Vicus Scura",
+            days: "Beschikbaar op zondag",
+            procent: "7,00%",
+            price: "1",
+            volume: "fles 33cl",
+            description: "Dit bier haalt zijn karakter uit de gebrande mouten. Deze zorgen voor fijne koffie en chocolade toetsen. Karaktervol bier met een lange afdronk.",
+        },
+        {
+            name: "Vicus Oro",
+            days: "Beschikbaar op zondag",
+            procent: "5,50%",
+            price: "1",
+            volume: "fles 33cl",
+            description: "Categorie van de \"speciale belge\" . Amber bier en dorstlesser die zich vlot laat drinken.",
+        },
+        {
+            name: "Vicus Inverno",
+            days: "Beschikbaar op zondag",
+            procent: "11,00%",
+            price: "1",
+            volume: "fles 33cl",
+            description: "Een donker 'degustatiebier', zeer rijk aan smaken door de juiste mix van 6 moutsoorten, kruiden en enkele fijne hopsoorten.",
+        }
+    ]
+}
 
 function showInformation(button) {
     sessionStorage.clear();
     // ASSIGN BROUWER
     let brouwer = brouwers.find((brouwer) => brouwer.number === button);
 
-    //DELETE BROUWERS ON HTML PAGE
+    // DELETE BROUWERS ON HTML PAGE
     document.getElementById("brouwerName").innerHTML = "";
     document.getElementById("brouwerDescription").innerHTML = "";
     document.getElementById("brouwerLink").innerHTML = "";
+    document.getElementById("brouwerName-2").innerHTML = "";
+    document.getElementById("brouwerDescription-2").innerHTML = "";
+    document.getElementById("brouwerLink-2").innerHTML = "";
+    // DELETE BROUWERS ON MODAL
     document.getElementById("brouwerName-mobile").innerHTML = "";
     document.getElementById("brouwerDescription-mobile").innerHTML = "";
     document.getElementById("brouwerLink-mobile").innerHTML = "";
+    document.getElementById("brouwerName-mobile-2").innerHTML = "";
+    document.getElementById("brouwerDescription-mobile-2").innerHTML = "";
+    document.getElementById("brouwerLink-mobile-2").innerHTML = "";
+    // DELETE BEERS ON HTML PAGE
+    const oldBeers = document.getElementById("allBeers");
+    oldBeers.innerHTML = '';
+    const oldBeers2 = document.getElementById("allBeers-2");
+    oldBeers2.innerHTML = '';
+    // DELETE BEERS ON MODAL
+    const element = document.getElementById("allBeers-mobile");
+    element.innerHTML = "";
+    const element2 = document.getElementById("allBeers-mobile-2");
+    element2.innerHTML = "";
+
 
     // DESKTOP
     if (deviceType() === "desktop") {
@@ -2041,10 +2059,62 @@ function showInformation(button) {
             days.innerHTML = currentBeer.days;
             listElement.appendChild(days);
         }
+        if (button === 5) {
+            // SHOW DATA
+            document.getElementById("brouwerName-2").innerHTML = (extraBrewer.number.toString() + ". " + extraBrewer.name);
+            document.getElementById("brouwerDescription-2").innerHTML = extraBrewer.description;
+            document.getElementById("brouwerLink-2").innerHTML = extraBrewer.link.substring(
+                extraBrewer.link.indexOf(".") + 1
+            );
+
+            // SET HREF
+            document.getElementById("brouwerLink-2").href = extraBrewer.link;
+
+            // SHOW BEERS
+            for (let i = 0; i < extraBrewer.beers.length; i++) {
+                // ASSIGN
+                let currentBeer = extraBrewer.beers[i];
+
+                // SHOW NAME
+                const name = document.createElement("h5");
+                name.classList.add("beerItem");
+                const nameText = document.createTextNode(
+                    currentBeer.name + " - " + currentBeer.procent
+                );
+                name.appendChild(nameText);
+
+                const allBeers = document.getElementById("allBeers-2");
+                allBeers.appendChild(name);
+
+                // SHOW DETAILS
+                const listElement = document.createElement("ul");
+                allBeers.appendChild(listElement);
+                //Description
+                const description = document.createElement("li");
+                description.classList.add("beerListItem");
+                description.innerHTML = currentBeer.description;
+                listElement.appendChild(description);
+                //Volume
+                const volume = document.createElement("li");
+                volume.classList.add("beerListItem");
+                volume.innerHTML = "Beschikbaar uit " + currentBeer.volume;
+                // listElement.appendChild(volume);
+                //Price
+                const price = document.createElement("li");
+                price.classList.add("beerListItem");
+                price.innerHTML = "Prijs: " + currentBeer.price + " bon(nen)";
+                listElement.appendChild(price);
+                //Days
+                const days = document.createElement("li");
+                days.classList.add("beerListItem");
+                days.innerHTML = currentBeer.days;
+                listElement.appendChild(days);
+            }
+        }
         // MOBILE
     } else {
         // Get the modal
-        var modal = document.getElementById("BrouwerModal");
+        const modal = document.getElementById("BrouwerModal");
         modal.classList.add("brewerModal");
 
         // SHOW BROUWER DATA
@@ -2057,9 +2127,6 @@ function showInformation(button) {
         // SET HREF
         document.getElementById("brouwerLink-mobile").href = brouwer.link;
 
-        // DELETE BEERS ON MODAL
-        const element = document.getElementById("allBeers-mobile");
-        element.innerHTML = "";
         // SHOW BEERS
         for (let i = 0; i < brouwer.beers.length; i++) {
             // ASSIGN
@@ -2099,8 +2166,60 @@ function showInformation(button) {
             days.classList.add("beerListItem-mobile");
             days.innerHTML = currentBeer.days;
             listElement.appendChild(days);
+            if (button === 5) {
+                // SHOW BROUWER-2 DATA
+                document.getElementById("brouwerName-mobile-2").innerHTML = (extraBrewer.number.toString() + ". " + brouwer.name);
+                document.getElementById("brouwerDescription-mobile-2").innerHTML = extraBrewer.description;
+                document.getElementById("brouwerLink-mobile-2").innerHTML = extraBrewer.link.substring(
+                    extraBrewer.link.indexOf(".") + 1
+                );
+
+                // SET HREF
+                document.getElementById("brouwerLink-mobile-2").href = extraBrewer.link;
+
+                // SHOW BEERS
+                for (let i = 0; i < extraBrewer.beers.length; i++) {
+                    // ASSIGN
+                    let currentBeer = extraBrewer.beers[i];
+
+                    // SHOW NAME
+                    const name = document.createElement("h5");
+                    name.classList.add("beerItem-mobile-2");
+                    const nameText = document.createTextNode(
+                        currentBeer.name + " - " + currentBeer.procent
+                    );
+                    name.appendChild(nameText);
+
+                    const allBeers = document.getElementById("allBeers-mobile-2");
+                    allBeers.appendChild(name);
+
+                    // SHOW DETAILS
+                    const listElement = document.createElement("ul");
+                    allBeers.appendChild(listElement);
+                    //Description
+                    const description = document.createElement("li");
+                    description.classList.add("beerListItem-mobile-2");
+                    description.innerHTML = currentBeer.description;
+                    listElement.appendChild(description);
+                    //Volume
+                    const volume = document.createElement("li");
+                    volume.classList.add("beerListItem-mobile-2");
+                    volume.innerHTML = "Beschikbaar uit " + currentBeer.volume;
+                    // listElement.appendChild(volume);
+                    //Price
+                    const price = document.createElement("li");
+                    price.classList.add("beerListItem-mobile-2");
+                    price.innerHTML = "Prijs: " + currentBeer.price + " bon(nen)";
+                    listElement.appendChild(price);
+                    //Days
+                    const days = document.createElement("li");
+                    days.classList.add("beerListItem-mobile-2");
+                    days.innerHTML = currentBeer.days;
+                    listElement.appendChild(days);
+                }
+            }
+            modal.style.display = "block";
         }
-        modal.style.display = "block";
     }
 }
 
@@ -2115,6 +2234,6 @@ const deviceType = () => {
 };
 
 function hideModal() {
-    var modal = document.getElementById("BrouwerModal");
+    const modal = document.getElementById("BrouwerModal");
     modal.style.display = "none";
 }

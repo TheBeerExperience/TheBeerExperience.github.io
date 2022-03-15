@@ -104,12 +104,14 @@ body {
 }
 .card-deck {
     display: flex;
+    flex-flow: row wrap;
 }
 .card-deck .card {
   margin-right: 1.5rem !important;
   margin-bottom: 0;
   display: inline-block;
-  width: 30%;
+  width: auto;
+  height: auto;
 }
 
 hr {
@@ -4717,8 +4719,13 @@ textarea.form-control-lg {
 
 .card-img,
 .card-img-top {
-  border-top-left-radius: calc(0.25rem - 1px);
-  border-top-right-radius: calc(0.25rem - 1px);
+  /* border-top-left-radius: calc(0.25rem - 1px);
+  border-top-right-radius: calc(0.25rem - 1px); */
+  width: 301.3px;
+  height: auto;
+    margin-left: 0;
+    margin-top: 0;
+    text-align: center;
 }
 
 .card-img,

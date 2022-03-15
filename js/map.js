@@ -1981,13 +1981,16 @@ function showInformation(button) {
     // ASSIGN BROUWER
     let brouwer = brouwers.find((brouwer) => brouwer.number === button);
 
-    //DELETE BROUWERS ON HTML PAGE
+    // DELETE BROUWERS ON HTML PAGE
     document.getElementById("brouwerName").innerHTML = "";
     document.getElementById("brouwerDescription").innerHTML = "";
     document.getElementById("brouwerLink").innerHTML = "";
     document.getElementById("brouwerName-mobile").innerHTML = "";
     document.getElementById("brouwerDescription-mobile").innerHTML = "";
     document.getElementById("brouwerLink-mobile").innerHTML = "";
+    // DELETE BEERS ON HTML PAGE
+    const oldBeers = document.getElementById("allBeers");
+    oldBeers.innerHTML = '';
 
     // DESKTOP
     if (deviceType() === "desktop") {

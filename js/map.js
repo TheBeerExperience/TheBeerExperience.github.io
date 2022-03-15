@@ -1605,26 +1605,27 @@ const brouwers = [
         description: "Uit het mooie Amsterdam komt Butcher's Tears. Zij brouwen moderne bieren van open gisting met een voorliefde voor het verfijnen van de klassieke technieken en houden de rijke Europese biercultuur in ere!",
         beers: [
             {
+                name: "Nobody's Darling",
+                days: "Beschikbaar op zaterdag",
+                procent: "7,00%",
+                price: "1,5",
+                volume: "vat van 20 liter",
+                description: "Stock Pale Ale"
+            },
+            {
+                name: "Monster Soup SSS",
+                days: "Beschikbaar op zaterdag",
+                procent: "10,50%",
+                price: "1,5",
+                volume: "vat van 20 liter",
+                description: "1877 Reid Triple Stout"
+            }, {
                 name: "So What",
                 days: "Beschikbaar op zaterdag en zondag",
                 procent: "7,00%",
                 price: "1,5",
                 volume: "vat van 20 liter",
                 description: "English Strong Ale blended with malt vinegar"
-            }, {
-                name: "Monster Soup SSS",
-                days: "Beschikbaar op zaterdag en zondag",
-                procent: "10,50%",
-                price: "1,5",
-                volume: "vat van 20 liter",
-                description: "1877 Reid Triple Stout"
-            }, {
-                name: "Headroom",
-                days: "Beschikbaar op zaterdag en zondag",
-                procent: "7,50%",
-                price: "1,5",
-                volume: "vat van 20 liter",
-                description: "London Double Brown Stout"
             },
             {
                 name: "Splash",
@@ -1633,30 +1634,28 @@ const brouwers = [
                 price: "1,5",
                 volume: "vat van 20 liter",
                 description: "Collab with Nevel, chevalier table beer with bog myrtle"
-            },
-            {
-                name: "Nobody's Darling",
-                days: "Beschikbaar op zaterdag en zondag",
-                procent: "7,00%",
-                price: "1,5",
-                volume: "vat van 20 liter",
-                description: "Stock Pale Ale"
-            },
-            {
-                name: "Aruspex",
-                days: "Beschikbaar op zaterdag en zondag",
-                procent: "8,00%",
-                price: "1,5",
-                volume: "vat van 20 liter",
-                description: "Peated Old Burton Ale"
-            },
-            {
+            }, {
                 name: "De Fluiter",
                 days: "Beschikbaar op zaterdag en zondag",
                 procent: "5,10%",
                 price: "1",
                 volume: "fles 33cl",
                 description: "Beirisch/Dark Lager"
+            }, {
+                name: "Headroom",
+                days: "Beschikbaar op zondag",
+                procent: "7,50%",
+                price: "1,5",
+                volume: "vat van 20 liter",
+                description: "London Double Brown Stout"
+            },
+            {
+                name: "Aruspex",
+                days: "Beschikbaar op zondag",
+                procent: "8,00%",
+                price: "1,5",
+                volume: "vat van 20 liter",
+                description: "Peated Old Burton Ale"
             }
         ]
     }, {

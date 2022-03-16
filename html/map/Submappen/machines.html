@@ -85,9 +85,11 @@
                                         <!-- Naar Expo-->
                                         <area alt="expo" coords="730,790,70" href="https://thebeerexperience.be/NL/experience/expo" target="_blank" shape="circle">
 
-                                        <button id="button-19" class="rounded-button" onclick="showInformation(19)">19
+                                        <button id="button-19" class="rounded-button"
+                                                onclick="showBrewerInformation(19)">19
                                         </button>
-                                        <button id="button-20" class="rounded-button" onclick="showInformation(20)">20
+                                        <button id="button-20" class="rounded-button"
+                                                onclick="showBrewerInformation(20)">20
                                         </button>
                                         <img id="map" alt="Map" src="../../../assets/machines.png" usemap="#workmap">
                                     </map>
@@ -126,6 +128,30 @@
                                                         <a id="brouwerLink-mobile-2" href="#" target="_blank"></a>
                                                         <p id="brouwerDescription-mobile-2"></p>
                                                         <div id="allBeers-mobile-2"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div>
+                                            <div id="food">
+                                                <h3 id="foodName"></h3>
+                                                <div id="allFood"></div>
+                                            </div>
+                                        </div>
+                                        <div id="FoodModal" class="modal" role="dialog" tabindex="-1">
+                                            <div class="modal-dialog" role="document">
+                                                <div class="modal-content">
+                                                    <div class="modal-body">
+                                                        <button aria-label="Close" class="close clickable btn-close"
+                                                                onclick="hideModal()"
+                                                                style="float: right;" type="button">
+                                                        </button>
+                                                        <div id="food-mobile">
+                                                            <h3 id="foodName-mobile"></h3>
+                                                            <div id="allFood-mobile"></div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -191,10 +217,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->
     <script src="../../../js/scripts.js"></script>
-    <script src="../../../js/map.js"></script>
+    <script src="../../../js/Database.js"></script>
     <script>
         window.onload = function () {
-            showInformation(parseInt(sessionStorage.getItem("brewer")));
+            showBrewerInformation(parseInt(sessionStorage.getItem("brewer")));
         }
     </script>
 </body>

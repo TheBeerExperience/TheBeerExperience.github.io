@@ -2355,6 +2355,8 @@ const getDeviceType = () => {
 };
 
 function hideModal() {
-    const modal = document.getElementById("BrouwerModal");
-    modal.style.display = "none";
+    const brewermodal = document.getElementById("BrouwerModal");
+    brewermodal.style.display = "none";
+    const foodmodal = document.getElementById("FoodModal");
+    foodmodal.style.display = "none";
 }

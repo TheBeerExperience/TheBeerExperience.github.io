@@ -2236,3 +2236,7 @@ function hideModal() {
     const modal = document.getElementById("BrouwerModal");
     modal.style.display = "none";
 }
+
+function showMusic(){
+    console.log("Ruben is een flikker xxx")
+}

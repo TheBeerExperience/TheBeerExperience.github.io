@@ -130,10 +130,23 @@ body {
 }
 .card-deck .card {
   margin-right: 1.5rem !important;
-  margin-bottom: 0;
+  margin-bottom: 1.5rem !important;
   display: inline-block;
   width: auto;
   height: auto;
+  background-color: transparent;
+  border: transparent;
+}
+
+.important-img {
+  width: 391.3px !important;
+}
+
+.important-partner { 
+  background-color: transparent !important;
+  border: transparent !important;
+  width: fit-content !important;
+  height: fit-content !important;
 }
 
 hr {

@@ -115,6 +115,30 @@
                                             </div>
                                         </div>
                                     </div>
+                                    <div>
+                                        <div>
+                                            <div id="food">
+                                                <h3 id="foodName"></h3>
+                                                <div id="allFood"></div>
+                                            </div>
+                                        </div>
+                                        <div id="FoodModal" class="modal" role="dialog" tabindex="-1">
+                                            <div class="modal-dialog" role="document">
+                                                <div class="modal-content">
+                                                    <div class="modal-body">
+                                                        <button aria-label="Close" class="close clickable btn-close"
+                                                                onclick="hideModal()"
+                                                                style="float: right;" type="button">
+                                                        </button>
+                                                        <div id="food-mobile">
+                                                            <h3 id="foodName-mobile"></h3>
+                                                            <div id="allFood-mobile"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                                 <img id="map" alt="Map" src="../../../assets/onderdek.png" usemap="#workmap">
                             </map>
@@ -178,7 +202,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->
     <script src="../../../js/scripts.js"></script>
-    <script src="../../../js/map.js"></script>
+    <script src="../../../js/Database.js"></script>
 </body>
 
 </html>

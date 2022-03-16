@@ -66,11 +66,11 @@
                                     <img id="legende" alt="Legende" src="../../../assets/Legende.png">
 
                                     <button id="blue-button-4" class="rounded-button"
-                                            onclick="showInformation()">4
+                                            onclick="showBrewerInformation()">4
                                     </button>
 
                                     <button id="brown-button-2" class="rounded-button"
-                                            onclick="showInformation()">2
+                                            onclick="showFoodInformation('Gebrande winning')">2
                                     </button>
 
                                     <area alt="ZwarteZaal" coords="550,50,100" href="ZwarteZaal.html"
@@ -130,6 +130,30 @@
                                                     <a id="brouwerLink-mobile-2" href="#" target="_blank"></a>
                                                     <p id="brouwerDescription-mobile-2"></p>
                                                     <div id="allBeers-mobile-2"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div>
+                                        <div id="food">
+                                            <h3 id="foodName"></h3>
+                                            <div id="allFood"></div>
+                                        </div>
+                                    </div>
+                                    <div id="FoodModal" class="modal" role="dialog" tabindex="-1">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-body">
+                                                    <button aria-label="Close" class="close clickable btn-close"
+                                                            onclick="hideModal()"
+                                                            style="float: right;" type="button">
+                                                    </button>
+                                                    <div id="food-mobile">
+                                                        <h3 id="foodName-mobile"></h3>
+                                                        <div id="allFood-mobile"></div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -195,7 +219,7 @@
     <!-- Copyright -->
 
 </footer>
-<script src="../../../js/map.js"></script>
+<script src="../../../js/Database.js"></script>
 </body>
 
 </html>

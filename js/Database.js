@@ -2300,28 +2300,10 @@ function showFoodInformation(location) {
     }
 }
 
-function showFillerInformation(){
-    sessionStorage.clear
-    clearAllData();
-    if (getDeviceType() === "desktop"){
-        document.getElementById("foodName").innerHTML = "Dit is een spoelstand waar je na iedere biertasting je glas kan uitspoelen.";
-    }else{
-        const modal = document.getElementById("spoelModal");
-        modal.classList.add("foodModal");   
-        document.getElementById("spoel").innerHTML = "Dit is een spoelstand waar je na iedere biertasting je glas kan uitspoelen.";
-        
-        modal.style.display = "block";
-    }
-    
-}
-
 // MUSIC
 // =====
 function showMusic() {
-    sessionStorage.clear();
-    clearAllData();
-    const timesheet = document.getElementById("Timesheet");
-    timesheet.style.display = "block";
+
 }
 
 // EXTRA
@@ -2349,6 +2331,7 @@ const clearAllData = () => {
     document.getElementById("allBeers-mobile").innerHTML = '';
     document.getElementById("allBeers-mobile-2").innerHTML = '';
 
+
     // FOOD
     // Delete foodName on HTML
     document.getElementById("foodName").innerHTML = "";
@@ -2359,8 +2342,6 @@ const clearAllData = () => {
     oldBeers.innerHTML = '';
     // Delete allFood on modal
     document.getElementById("allFood-mobile").innerHTML = "";
-
-    hideModal();
 }
 
 const getDeviceType = () => {
@@ -2378,8 +2359,4 @@ function hideModal() {
     brewermodal.style.display = "none";
     const foodmodal = document.getElementById("FoodModal");
     foodmodal.style.display = "none";
-    const spoelModal = document.getElementById("spoelModal");
-    spoelModal.style.display = "none";
-    const timesheet = document.getElementById("Timesheet");
-    timesheet.style.display = "none";
 }

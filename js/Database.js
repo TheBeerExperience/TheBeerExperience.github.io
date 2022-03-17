@@ -2318,7 +2318,10 @@ function showFillerInformation(){
 // MUSIC
 // =====
 function showMusic() {
-
+    sessionStorage.clear();
+    clearAllData();
+    const timesheet = document.getElementById("Timesheet");
+    timesheet.style.display = "block";
 }
 
 // EXTRA
@@ -2346,7 +2349,6 @@ const clearAllData = () => {
     document.getElementById("allBeers-mobile").innerHTML = '';
     document.getElementById("allBeers-mobile-2").innerHTML = '';
 
-
     // FOOD
     // Delete foodName on HTML
     document.getElementById("foodName").innerHTML = "";
@@ -2357,6 +2359,8 @@ const clearAllData = () => {
     oldBeers.innerHTML = '';
     // Delete allFood on modal
     document.getElementById("allFood-mobile").innerHTML = "";
+
+    hideModal();
 }
 
 const getDeviceType = () => {
@@ -2376,5 +2380,6 @@ function hideModal() {
     foodmodal.style.display = "none";
     const spoelModal = document.getElementById("spoelModal");
     spoelModal.style.display = "none";
+    const timesheet = document.getElementById("Timesheet");
+    timesheet.style.display = "none";
 }
-

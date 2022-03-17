@@ -94,7 +94,7 @@
                                         <area alt="café" coords="130,500,50" href="terras.html" shape="circle">
 
                                         <button id="blue-button-3" class="rounded-button"
-                                            onclick="showBrewerInformation()">3
+                                            onclick="showFillerInformation()">3
                                         </button>
 
                                         <button id="brown-button-3" class="rounded-button"
@@ -194,6 +194,20 @@
                                                 </div>
                                             </div>
                                         </div>
+                                        <div id="spoelModal" class="modal" role="dialog" tabindex="-1">
+                                            <div class="modal-dialog" role="document">
+                                                <div class="modal-content">
+                                                    <div class="modal-body">
+                                                        <button aria-label="Close" class="close clickable btn-close"
+                                                            onclick="hideModal()" style="float: right;" type="button">
+                                                        </button>
+                                                        <div id="spoel-mobile">
+                                                            <p id="spoel"></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div> 
                                     </div>
                                 </div>
                             </div>
@@ -246,7 +260,7 @@
         <div class="footer-copyright text-center pb-3">
             <a class="footer-icons" href="https://linktr.ee/pixel.byte" target="_blank"><img alt="PixelByte"
                                                                                              src="../../../assets/pixelbyte_no_bac_footer.png"
-                                                                                             style="width: 8%;"></a>
+                                                                                             style="width: 150px;"></a>
         </div>
         <div class="footer-copyright text-center pb-3"><span class="yellow-text">Copyright:</span>
             <a class="footer-icons" href="https://mdbootstrap.com/"> © All rights reserved</a>

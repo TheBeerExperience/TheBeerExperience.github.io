@@ -2300,6 +2300,21 @@ function showFoodInformation(location) {
     }
 }
 
+function showFillerInformation(){
+    sessionStorage.clear
+    clearAllData();
+    if (getDeviceType() === "desktop"){
+        document.getElementById("foodName").innerHTML = "Dit is een spoelstand waar je na iedere biertasting je glas kan uitspoelen.";
+    }else{
+        const modal = document.getElementById("spoelModal");
+        modal.classList.add("foodModal");   
+        document.getElementById("spoel").innerHTML = "Dit is een spoelstand waar je na iedere biertasting je glas kan uitspoelen.";
+        
+        modal.style.display = "block";
+    }
+    
+}
+
 // MUSIC
 // =====
 function showMusic() {
@@ -2359,4 +2374,6 @@ function hideModal() {
     brewermodal.style.display = "none";
     const foodmodal = document.getElementById("FoodModal");
     foodmodal.style.display = "none";
+    const spoelModal = document.getElementById("spoelModal");
+    spoelModal.style.display = "none";
 }

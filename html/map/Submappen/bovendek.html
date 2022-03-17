@@ -85,11 +85,11 @@
                                         <area alt="showMusic" shape="circle" coords="480,350,40" onclick="showMusic()">
 
                                         <button class="rounded-button" id="blue-button-1"
-                                            onclick="showFoodInformation('Portie gemengd')">1
+                                            onclick="showFillerInformation()">1
                                         </button>
 
                                         <button class="rounded-button" id="brown-button-3" 
-                                            onclick="showFoodInformation()">3</button>
+                                            onclick="showFoodInformation('Portie gemengd')">3</button>
 
                                         <button class="rounded-button" id="button-1"
                                             onclick="showBrewerInformation(1)">1
@@ -181,6 +181,20 @@
                                                 </div>
                                             </div>
                                         </div>
+                                        <div id="spoelModal" class="modal" role="dialog" tabindex="-1">
+                                            <div class="modal-dialog" role="document">
+                                                <div class="modal-content">
+                                                    <div class="modal-body">
+                                                        <button aria-label="Close" class="close clickable btn-close"
+                                                            onclick="hideModal()" style="float: right;" type="button">
+                                                        </button>
+                                                        <div id="spoel-mobile">
+                                                            <p id="spoel"></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -243,7 +257,7 @@
         <div class="footer-copyright text-center pb-3">
             <a class="footer-icons" href="https://linktr.ee/pixel.byte" target="_blank"><img alt="PixelByte"
                                                                                              src="../../../assets/pixelbyte_no_bac_footer.png"
-                                                                                             style="width: 8%;"></a>
+                                                                                             style="width: 150px;"></a>
         </div>
         <div class="footer-copyright text-center pb-3"><span class="yellow-text">Copyright:</span>
             <a href="https://mdbootstrap.com/" class="footer-icons"> © All rights reserved</a>

@@ -166,15 +166,28 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div id="Timesheet" class="modal" role="dialog" tabindex="-1">
+                                    <div id="spoelModal" class="modal" role="dialog" tabindex="-1">
                                         <div class="modal-dialog" role="document">
                                             <div class="modal-content">
                                                 <div class="modal-body">
                                                     <button aria-label="Close" class="close clickable btn-close"
-                                                            onclick="hideModal()" style="float: right;" type="button">
+                                                        onclick="hideModal()" style="float: right;" type="button">
                                                     </button>
-                                                    <img alt="timesheet" src="../../../assets/tijdschema.jpg"/>
+                                                    <div id="spoel-mobile">
+                                                        <p id="spoel"></p>
+                                                    </div>
                                                 </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="Timesheet" class="modal" role="dialog" tabindex="-1">
+                                        <div class="modal-content">
+                                            <div class="modal-body">
+                                                <button aria-label="Close" class="close clickable btn-close"
+                                                        onclick="hideModal()" style="float: right;" type="button">
+                                                </button>
+                                                <img alt="timesheet" class="timeImage"
+                                                     src="../../../assets/tijdschema.jpg"/>
                                             </div>
                                         </div>
                                     </div>
@@ -230,7 +243,7 @@
     <div class="footer-copyright text-center pb-3">
         <a class="footer-icons" href="https://linktr.ee/pixel.byte" target="_blank"><img alt="PixelByte"
                                                                                          src="../../../assets/pixelbyte_no_bac_footer.png"
-                                                                                         style="width: 8%;"></a>
+                                                                                         style="width: 150px;"></a>
     </div>
     <div class="footer-copyright text-center pb-3"><span class="yellow-text">Copyright:</span>
         <a class="footer-icons" href="https://mdbootstrap.com/"> © All rights reserved</a>

@@ -2215,7 +2215,7 @@ const food = [
             price: "3 jetons"
         }, {name: "Panna cotta van hopscheuten: hopscheuten/ krab/ kwartelei/ waterkers ", price: "4 jetons"}]
     },
-    {number: 3, name: "Hilaire", food: [{name: "Biltong (Beef Jerky) en gedroogde kaantjes", price: ""}]},
+    {number: 3, name: "Hilaire", food: [{name: "Biltong (Beef Jerky) en gedroogde kaantjes", price: "2 jetons"}]},
     {
         number: 4,
         name: "Friet",

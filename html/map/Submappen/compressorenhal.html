@@ -24,6 +24,8 @@
     <link href="../../../css/processed.css" rel="stylesheet" />
     <link href="../../../css/compressorenhal.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css" />
 </head>
 
 <body class="body-background">
@@ -61,7 +63,10 @@
             <div class="card-maps">
                 <div class="card" style="overflow: auto;">
                     <form action="../../../index.html" method="get">
-                        <button id="button-back" type="submit">Go back</button>
+                        <button type="submit" class="slide" id="button-back">
+                            <i class="icon-arrow-left"></i>
+                            <div>Naar Map</div>
+                        </button>
                     </form>
                     <div class="card-header">
                         <h1 class="mt-4">Compressorenhal</h1>
@@ -183,8 +188,7 @@
                                                 <div class="modal-content">
                                                     <div class="modal-body">
                                                         <button aria-label="Close" class="close clickable btn-close"
-                                                                onclick="hideModal()" style="float: right;"
-                                                                type="button">
+                                                            onclick="hideModal()" style="float: right;" type="button">
                                                         </button>
                                                         <div id="spoel-mobile">
                                                             <p id="spoel"></p>
@@ -197,10 +201,10 @@
                                             <div class="modal-content">
                                                 <div class="modal-body">
                                                     <button aria-label="Close" class="close clickable btn-close"
-                                                            onclick="hideModal()" type="button">
+                                                        onclick="hideModal()" type="button">
                                                     </button>
                                                     <img alt="timesheet" class="timeImage"
-                                                         src="../../../assets/tijdschema.jpg"/>
+                                                        src="../../../assets/tijdschema.jpg" />
                                                 </div>
                                             </div>
                                         </div>
@@ -264,8 +268,7 @@
         <!-- Copyright -->
         <div class="footer-copyright text-center pb-3">
             <a class="footer-icons" href="https://linktr.ee/pixel.byte" target="_blank"><img alt="PixelByte"
-                                                                                             src="../../../assets/pixelbyte_no_bac_footer.png"
-                                                                                             style="width: 150px;"></a>
+                    src="../../../assets/pixelbyte_no_bac_footer.png" style="width: 150px;"></a>
         </div>
         <div class="footer-copyright text-center pb-3"><span class="yellow-text">Copyright:</span>
             <a href="https://mdbootstrap.com/" class="footer-icons"> © All rights reserved</a>

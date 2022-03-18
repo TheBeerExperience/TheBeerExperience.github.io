@@ -11,7 +11,7 @@ const brewers = [
         beers: [
             {
                 name: "Florentius Black IPA",
-                days: "Beschikbaar op zaterdag",
+                days: "Beschikbaar op zaterdag en zondag",
                 procent: "6,20%",
                 price: "1",
                 volume: "fles 33cl",
@@ -44,15 +44,6 @@ const brewers = [
                 volume: "fles 33cl",
                 description:
                     "A sour and at the same time slightly bitter beer, hopped with citraand infused with (red) beetroot juice. Philly Sour yeast.",
-            },
-            {
-                name: "Florentius Black IPA",
-                days: "Beschikbaar op zondag",
-                procent: "6,20%",
-                price: "1",
-                volume: "fles 33cl",
-                description:
-                    "This Black IPA is brewed with frozen fresh hops and delivers a hoppy and slighty malted, burned nose with a bitter taste.",
             },
             {
                 name: "Ignatius Mulberry & Blackberry saison",
